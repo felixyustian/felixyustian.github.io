@@ -1,5 +1,5 @@
 <p> -------------------------------------------------------------------------------------------------------------------------------------------------- </p>
-<h1 color="red", id="banner"> Felix Yustian Setiono's Profile </h1>
+<h1 color="red"> Felix Yustian Setiono's Github Profile </h1>
 
 <h2> 
 <p> Hello, my name is Felix Yustian Setiono. I'm a developer and programmer, specializing in Robotics, Mechatronics, Artificial Intelligence (AI), Machine Learning (ML), and Computer Vision (CV). </p>
