@@ -6,7 +6,7 @@
 <p> Currently, I'm a professor and researcher at the Robotics and Mechatronics Research Group, Department of Electrical Engineering, Soegijapranata Catholic University, Semarang, Indonesia. Please visit my LinkedIn profile or the attached Curriculum Vitae (CV) to know about me. </p>
 </h2>
 
-<p><h3> ------------------------------------------------------------------------------------------------------------------------------- </h3></p>
+<p><h3> ----------------------------------------------------------------------------------------------------------------------------- </h3></p>
 
 <p><h3> LinkedIn Profile: <a href="https://linkedin.com/felixsetiono"> Felix Yustian Setiono's LinkedIn Profile </a></h3></p>
 
