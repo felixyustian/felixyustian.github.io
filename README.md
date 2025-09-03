@@ -1,9 +1,9 @@
 <p> -------------------------------------------------------------------------------------------------------------------------------------------------- </p>
-<h1 color="red"> Felix Yustian Setiono's Github Profile </h1>
+<h1> Felix Yustian Setiono's Github Profile </h1>
 
 <h2> 
 <p> Hello, my name is Felix Yustian Setiono. I'm a developer and programmer, specializing in Robotics, Mechatronics, Artificial Intelligence (AI), Machine Learning (ML), and Computer Vision (CV). </p>
-<p> Currently, I'm a professor and researcher at the Robotics and Mechatronics Research Group, Department of Electrical Engineering, Soegijapranata Catholic University, Semarang, Indonesia. Please visit my LinkedIn profile or the attached Curriculum Vitae (CV) to know about me. </p>p
+<p> Currently, I'm a professor and researcher at the Robotics and Mechatronics Research Group, Department of Electrical Engineering, Soegijapranata Catholic University, Semarang, Indonesia. Please visit my LinkedIn profile or the attached Curriculum Vitae (CV) to know about me. </p>
 </h2>
 
 <p> -------------------------------------------------------------------------------------------------------------------------------------------------- </p>
