@@ -10,7 +10,7 @@
 
 <p><h2></h2></p>
 
-<p><h3> LinkedIn Profile: <a href="https://linkedin.com/felixsetiono"> Felix Yustian Setiono's LinkedIn Profile </a></h3></p>
+<p><h3> LinkedIn Profile: <a href="https://linkedin.com/in/felixsetiono"> Felix Yustian Setiono's LinkedIn Profile </a></h3></p>
 
 <p><h3> Curriculum Vitae: <a href="https://drive.google.com/file/d/1IdpEMnRDKiY3RmneEeV_z_VUJWrOsvfk/view?usp=sharing"> Felix Yustian Setiono's Curriculum Vitae </a></h3></p>
 
