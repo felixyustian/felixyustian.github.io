@@ -1,3 +1,5 @@
+<p><h2></h2></p>
+
 <h1> Felix Yustian Setiono's Github Profile </h1>
 
 <h2> 
@@ -14,7 +16,6 @@
 <p><h3> Curriculum Vitae: <a href="https://drive.google.com/file/d/1IdpEMnRDKiY3RmneEeV_z_VUJWrOsvfk/view?usp=sharing"> Felix Yustian Setiono's Curriculum Vitae </a></h3></p>
 
 <p><h2></h2></p>
-<p><h2></h2></p>
 
 <p><h3><u> Contacts: </u></h3></p>
 <p><h3> Email 1: felixyustian@gmail.com </h3></p>
@@ -24,8 +25,7 @@
 <p><h3> Phone 2: +62-813-940-841-51 </h3></p>
 
 <p><h2></h2></p>
-<p><h2></h2></p>
 
 <p><h2> Copyright 2025 - Felix Yustian Setiono </h2></p>
 <p><h2> All Rights Reserved </h2></p>
-<p></p>
+<p><h2></h2></p>
