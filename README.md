@@ -8,8 +8,7 @@
 <p> Please visit my LinkedIn profile or the attached Curriculum Vitae (CV) to know about me. </p>
 </h3>
 
-<p></p>
-<p></p>
+<p><h2></h2></p>
 
 <p><h3> LinkedIn Profile: <a href="https://linkedin.com/felixsetiono"> Felix Yustian Setiono's LinkedIn Profile </a></h3></p>
 
@@ -26,5 +25,5 @@
 
 <p><h2></h2></p>
 
-<p><h2> Copyright 2025 - Felix Yustian Setiono - All Rights Reserved </h2></p>
+<p><h3> Copyright 2025 - Felix Yustian Setiono - All Rights Reserved </h3></p>
 <p><h2></h2></p>
