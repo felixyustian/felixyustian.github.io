@@ -1,5 +1,3 @@
-<p><h3> ----------------------------------------------------------------------------------- </h3></p>
-
 <h1> Felix Yustian Setiono's Github Profile </h1>
 
 <h2> 
@@ -8,13 +6,13 @@
 <p> Please visit my LinkedIn profile or the attached Curriculum Vitae (CV) to know about me. </p>
 </h2>
 
-<p><h3> ----------------------------------------------------------------------------------- </h3></p>
+<p></p>
 
 <p><h3> LinkedIn Profile: <a href="https://linkedin.com/felixsetiono"> Felix Yustian Setiono's LinkedIn Profile </a></h3></p>
 
 <p><h3> Curriculum Vitae: <a href="https://drive.google.com/file/d/1IdpEMnRDKiY3RmneEeV_z_VUJWrOsvfk/view?usp=sharing"> Felix Yustian Setiono's Curriculum Vitae </a></h3></p>
 
-<p><h3> ----------------------------------------------------------------------------------- </h3></p>
+<p></p>
 
 <p><h3><u> Contacts: </u></h3></p>
 <p><h3> Email 1: felixyustian@gmail.com </h3></p>
@@ -24,10 +22,7 @@
 <p><h3> Phone 2: +62-813-940-841-51 </h3></p>
 <p></p>
 
-<p><h3> ----------------------------------------------------------------------------------- </h3></p>
-
 <p></p>
 <p><h3> Copyright 2025 - Felix Yustian Setiono </h3></p>
 <p><h3> All Rights Reserved </h3></p>
-
-<p><h3> ----------------------------------------------------------------------------------- </h3></p>
+<p></p>
