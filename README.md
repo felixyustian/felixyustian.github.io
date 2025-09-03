@@ -26,6 +26,5 @@
 
 <p><h2></h2></p>
 
-<p><h2> Copyright 2025 - Felix Yustian Setiono </h2></p>
-<p><h2> All Rights Reserved </h2></p>
+<p><h2> Copyright 2025 - Felix Yustian Setiono - All Rights Reserved </h2></p>
 <p><h2></h2></p>
