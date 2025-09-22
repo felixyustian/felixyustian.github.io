@@ -1,30 +1,474 @@
-<p><h2></h2></p>
-
-<h1> Felix Yustian Setiono's Github Profile </h1>
-
-<h3> 
-<p> Hello, my name is Felix Yustian Setiono. I'm a developer and programmer, specializing in Robotics, Mechatronics, Artificial Intelligence (AI), Machine Learning (ML), Computer Vision (CV), and Internet of Things (IoT). </p>
-<p> Currently, I'm a professor and researcher at the Robotics and Mechatronics Research Group, Department of Electrical Engineering, Soegijapranata Catholic University, Semarang, Indonesia. </p>
-<p> Please visit my LinkedIn profile or the attached Curriculum Vitae (CV) to know about me. </p>
-</h3>
-
-<p><h2></h2></p>
-
-<p><h3> LinkedIn Profile: <a href="https://www.linkedin.com/in/felixsetiono"> Felix Yustian Setiono's LinkedIn Profile </a></h3></p>
-
-<p><h3> Curriculum Vitae: <a href="https://drive.google.com/file/d/1IdpEMnRDKiY3RmneEeV_z_VUJWrOsvfk/view?usp=sharing"> Felix Yustian Setiono's Curriculum Vitae </a></h3></p>
-
-<p><h2></h2></p>
-
-<p><h3><u> Contacts: </u></h3></p>
-<p><h3> <=> Email 1: felixyustian@gmail.com </h3></p>
-<p><h3> <=> Email 2: felix_yustian@yahoo.com </h3></p>
-<p></p>
-<p><h3> <=> Phone 1: +62-812-840-473-45 </h3></p>
-<p><h3> <=> Phone 2: +62-813-940-841-51 </h3></p>
-
-<p><h2></h2></p>
-<p><h2></h2></p>
-
-<p><h3> Copyright 2025 - Felix Yustian Setiono - All Rights Reserved </h3></p>
-<p><h2></h2></p>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Felix Yustian Setiono</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+        
+        .header .title {
+            font-size: 1.2rem;
+            font-weight: 400;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .main-content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9ecef;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .experience-item, .education-item {
+            margin-bottom: 25px;
+            padding-left: 20px;
+            border-left: 3px solid #667eea;
+        }
+        
+        .experience-item:last-child, .education-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        
+        .item-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: #2d3748;
+        }
+        
+        .item-company, .item-school {
+            color: #667eea;
+            font-weight: 500;
+        }
+        
+        .item-date {
+            color: #718096;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .skill-category h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+        
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .skill-tag {
+            background: #e9ecef;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #495057;
+        }
+        
+        .achievements-list {
+            list-style: none;
+        }
+        
+        .achievements-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .achievements-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .publications-list {
+            list-style: none;
+        }
+        
+        .publications-list li {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .memberships-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .membership-item {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .cv-container {
+                margin: 0;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .main-content {
+                padding: 30px 20px;
+            }
+            
+            .item-header {
+                flex-direction: column;
+                gap: 5px;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* PDF-specific optimizations */
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .cv-container {
+                box-shadow: none;
+                max-width: none;
+            }
+            
+            .header {
+                background: #667eea !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>FELIX YUSTIAN SETIONO</h1>
+            <div class="title">Robotics & Mechatronics Expert | Educator | Researcher</div>
+            <div class="contact-info">
+                <span>📱 +62 81 284 0473 45</span>
+                <span>📧 felixyustian@gmail.com</span>
+                <span>📍 Kembangarum 165 RT 05 / RW 02, Mranggen Demak Indonesia 59567</span>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Professional Summary -->
+            <div class="section">
+                <h2 class="section-title">Professional Summary</h2>
+                <p>Experienced Robotics and Mechatronics professional with over 10 years of expertise in unmanned systems, autonomous vehicles, and renewable energy. Proven track record in academia as a lecturer and researcher, combined with leadership experience in robotics teams. Skilled in machine learning, computer vision, embedded systems, and various programming languages. Committed to advancing technology education and research in Indonesia.</p>
+            </div>
+            
+            <!-- Work Experience -->
+            <div class="section">
+                <h2 class="section-title">Work Experience</h2>
+                
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">General Manager and Main Advisor</div>
+                            <div class="item-company">Robotics Team Soegijapranata</div>
+                        </div>
+                        <div class="item-date">August 2014 - Present</div>
+                    </div>
+                    <p>Leading and advising robotics teams in various competitions, developing strategies for technical excellence, and mentoring students in robotics and mechatronics projects.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Lecturer and Researcher</div>
+                            <div class="item-company">Soegijapranata Catholic University</div>
+                        </div>
+                        <div class="item-date">May 2014 - Present</div>
+                    </div>
+                    <p>Teaching electrical engineering courses, conducting research in robotics and mechatronics, supervising student projects, and contributing to academic publications.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Head of Laboratory</div>
+                            <div class="item-company">Soegijapranata Catholic University</div>
+                        </div>
+                        <div class="item-date">August 2014 - March 2018</div>
+                    </div>
+                    <p>Managing laboratory operations, maintaining equipment, developing laboratory modules, and ensuring safety standards for electrical engineering experiments.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Research Assistant</div>
+                            <div class="item-company">Electrical Energy Conversion Laboratory</div>
+                        </div>
+                        <div class="item-date">January 2010 - August 2012</div>
+                    </div>
+                    <p>Assisting in research projects related to electrical energy conversion, data collection, analysis, and experimental setup.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Teaching Assistant</div>
+                            <div class="item-company">Electrical Energy Conversion Laboratory</div>
+                        </div>
+                        <div class="item-date">August - December 2009</div>
+                    </div>
+                    <p>Assisting in laboratory sessions, helping students with experiments, and grading assignments.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Internship</div>
+                            <div class="item-company">PT Astra Honda Motor</div>
+                        </div>
+                        <div class="item-date">August 2007</div>
+                    </div>
+                    <p>Gained practical experience in automotive manufacturing processes and quality control systems.</p>
+                </div>
+            </div>
+            
+            <!-- Education -->
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                
+                <div class="education-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Professional Engineer</div>
+                            <div class="item-school">Professional Certification</div>
+                        </div>
+                        <div class="item-date">April 2024 - October 2024</div>
+                    </div>
+                    <p>GPA: 4.00 of 4.00</p>
+                </div>
+                
+                <div class="education-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Master of Electrical Engineering</div>
+                            <div class="item-school">Institut Teknologi Bandung</div>
+                        </div>
+                        <div class="item-date">January 2010 - August 2012</div>
+                    </div>
+                    <p>GPA: 3.17 of 4.00</p>
+                </div>
+                
+                <div class="education-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Bachelor of Electrical Engineering</div>
+                            <div class="item-school">Soegijapranata Catholic University</div>
+                        </div>
+                        <div class="item-date">August 2005 - December 2009</div>
+                    </div>
+                    <p>GPA: 2.81 of 4.00</p>
+                </div>
+            </div>
+            
+            <!-- Skills -->
+            <div class="section">
+                <h2 class="section-title">Skills</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Technical Skills</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">Robotics & Mechatronics</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Computer Vision</span>
+                            <span class="skill-tag">Embedded Systems</span>
+                            <span class="skill-tag">SolidWorks</span>
+                            <span class="skill-tag">MATLAB-SIMULINK</span>
+                            <span class="skill-tag">PSIM</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Programming Languages</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C/C++</span>
+                            <span class="skill-tag">BASIC</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">MySQL</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Libraries & Frameworks</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">Scikit-Learn</span>
+                            <span class="skill-tag">Azure Platform</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Languages</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">Indonesian (Native)</span>
+                            <span class="skill-tag">Javanese (Native)</span>
+                            <span class="skill-tag">English (TOEFL iBT 80)</span>
+                            <span class="skill-tag">French (DELF A2)</span>
+                            <span class="skill-tag">Japanese (Basic)</span>
+                            <span class="skill-tag">Korean (Basic)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Operating Systems</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">Microsoft Windows</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">Microsoft Office</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Soft Skills</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">Teamwork</span>
+                            <span class="skill-tag">Social Integrity</span>
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Determination</span>
+                            <span class="skill-tag">Project Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Achievements -->
+            <div class="section">
+                <h2 class="section-title">Achievements & Awards</h2>
+                <ul class="achievements-list">
+                    <li><strong>Best Graduate Student</strong> - Academic excellence recognition</li>
+                    <li><strong>AOTULE Participant</strong> - International academic collaboration</li>
+                    <li><strong>Exchange Student</strong> - INP-ENSEEIHT, Toulouse, France</li>
+                    <li><strong>Presenter</strong> - Various international conferences and seminars</li>
+                    <li><strong>Advisor and Judge</strong> - Multiple robotics competitions</li>
+                </ul>
+            </div>
+            
+            <!-- Professional Memberships -->
+            <div class="section">
+                <h2 class="section-title">Professional Memberships</h2>
+                <div class="memberships-list">
+                    <span class="membership-item">IEEE Regular Member</span>
+                    <span class="membership-item">PII Regular Member</span>
+                    <span class="membership-item">APDI Regular Member</span>
+                    <span class="membership-item">Python Indonesian Society Member</span>
+                    <span class="membership-item">Python Software Foundation (PSF) Member</span>
+                </div>
+            </div>
+            
+            <!-- Research Interests -->
+            <div class="section">
+                <h2 class="section-title">Research Interests</h2>
+                <p>Unmanned Systems, Autonomous Vehicles, Renewable Energy, Robotics, Mechatronics, Machine Learning, Computer Vision, Human Emotion Analysis, Embedded Systems</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
