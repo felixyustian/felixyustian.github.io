@@ -15,7 +15,7 @@ Experienced Robotics and Mechatronics professional with over 10 years of experti
 ## Work Experience
 
 ### General Manager and Main Advisor
-**Robotics Team Soegijapranata** | *August 2014 - Present*
+**Soegijapranata Robotics Team** | *August 2014 - Present*
 Leading and advising robotics teams in various competitions, developing strategies for technical excellence, and mentoring students in robotics and mechatronics projects.
 
 ### Lecturer and Researcher
