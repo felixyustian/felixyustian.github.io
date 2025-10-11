@@ -5,6 +5,10 @@
 * **Email:** felixyustian@gmail.com
 * **Address:** Kembangarum 165 RT 05 / RW 02, Mranggen Demak Indonesia 59567
 * **LinkedIn:** https://linkedin.com/in/felixsetiono
+* **X:** https://x.com/felixyustian
+* **Facebook:** https://www.facebook.com/felixyustian
+* **Instagram:** https://www.instagram.com/felixyustian/
+* **ORCiD:** https://orcid.org/0000-0002-5240-0466
 
 ---
 
