@@ -124,7 +124,7 @@ GPA: 2.81 of 4.00
 * **Exchange Student** - INP-ENSEEIHT, Toulouse, France
 * **Presenter** - Various international conferences and seminars
 * **Advisor and Judge** - Multiple robotics competitions
-* **Google Student Ambassador 2025 ** - Mentor for university delegates  
+* **Google Student Ambassador 2025** - Mentor for university delegates  
 
 ---
 
