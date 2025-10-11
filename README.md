@@ -4,7 +4,7 @@
 * **Phone:** +62 81 284 0473 45
 * **Email:** felixyustian@gmail.com
 * **Address:** Kembangarum 165 RT 05 / RW 02, Mranggen Demak Indonesia 59567
-* **LinkedIn:** <a href=https://linkedin.com/in/felixsetiono> https://linkedin.com/in/felixsetiono </href>
+* **LinkedIn:** https://linkedin.com/in/felixsetiono
 
 ---
 
