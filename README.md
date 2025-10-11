@@ -75,12 +75,23 @@ GPA: 2.81 of 4.00
 * PHP
 * MySQL
 
+### Embedded Systems & AIoT
+* Arduino
+* Raspberry Pi
+* ESP32
+* Omron PLC
+* Schneider Electric Zelio PLC
+
 ### Libraries & Frameworks
 * OpenCV
 * PyTorch
 * Pandas
 * Scikit-Learn
+* Matplotlib
+* Seaborn
 * Azure Platform
+* Tableau
+* Figma
 
 ### Languages
 * Indonesian (Native)
