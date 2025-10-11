@@ -94,6 +94,8 @@ GPA: 2.81 of 4.00
 * Microsoft Windows
 * Linux
 * Microsoft Office
+* RTOS
+* Embedded C++
 
 ### Soft Skills
 * Teamwork
