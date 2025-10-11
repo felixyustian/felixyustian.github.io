@@ -4,6 +4,7 @@
 * **Phone:** +62 81 284 0473 45
 * **Email:** felixyustian@gmail.com
 * **Address:** Kembangarum 165 RT 05 / RW 02, Mranggen Demak Indonesia 59567
+* **LinkedIn:** https://linkedin.com/in/felixsetiono
 
 ---
 
@@ -123,6 +124,7 @@ GPA: 2.81 of 4.00
 * **Exchange Student** - INP-ENSEEIHT, Toulouse, France
 * **Presenter** - Various international conferences and seminars
 * **Advisor and Judge** - Multiple robotics competitions
+* **Google Student Ambassador 2025 ** - Mentor for university delegates  
 
 ---
 
