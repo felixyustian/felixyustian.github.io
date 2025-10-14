@@ -20,31 +20,31 @@ Experienced Robotics and Mechatronics professional with over 10 years of experti
 ## Work Experience
 
 ### Freelance Software and AI Engineer
-**PostWork AI** | *October 2025 - Present* | *Remote*
+**PostWork AI** | *October 2025 - Present* | *Remote* |
 Developing and training AI models before final public deployments, solving the customers' needs for software or applications, working in remote locations, and being paid hourly.
 
 ### General Manager and Main Advisor
-**Soegijapranata Robotics Team** | *August 2014 - Present* | *Onsite*
+**Soegijapranata Robotics Team** | *August 2014 - Present* | *Onsite* |
 Leading and advising robotics teams in various competitions, developing strategies for technical excellence, and mentoring students in robotics and mechatronics projects.
 
 ### Lecturer and Researcher
-**Soegijapranata Catholic University** | *May 2014 - Present* | *Onsite*
+**Soegijapranata Catholic University** | *May 2014 - Present* | *Onsite* |
 Teaching electrical engineering courses, conducting research in robotics and mechatronics, supervising student projects, and contributing to academic publications.
 
 ### Head of Laboratory
-**Soegijapranata Catholic University** | *August 2014 - March 2018*
+**Soegijapranata Catholic University** | *August 2014 - March 2018* |
 Managing laboratory operations, maintaining equipment, developing laboratory modules, and ensuring safety standards for electrical engineering experiments.
 
 ### Research Assistant
-**Electrical Energy Conversion Laboratory** | *January 2010 - August 2012* | *Onsite*
+**Electrical Energy Conversion Laboratory** | *January 2010 - August 2012* | *Onsite* |
 Assisting in research projects related to electrical energy conversion, data collection, analysis, and experimental setup.
 
 ### Teaching Assistant
-**Electrical Energy Conversion Laboratory** | *August - December 2009* | *Onsite*
+**Electrical Energy Conversion Laboratory** | *August - December 2009* | *Onsite* |
 Assisting in laboratory sessions, helping students with experiments, and grading assignments.
 
 ### Internship
-**PT Astra Honda Motor** | *August 2007* | *Onsite*
+**PT Astra Honda Motor** | *August 2007* | *Onsite* |
 Gained practical experience in automotive manufacturing processes and quality control systems.
 
 ---
