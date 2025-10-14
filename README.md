@@ -19,6 +19,10 @@ Experienced Robotics and Mechatronics professional with over 10 years of experti
 
 ## Work Experience
 
+### Freelance Software and AI Engineer
+**PostWork AI** | *October 2025 - Present*
+Developing and training AI models before final public deployments, solving the customers' needs for software or applications, working in remote locations, and being paid hourly.
+
 ### General Manager and Main Advisor
 **Soegijapranata Robotics Team** | *August 2014 - Present*
 Leading and advising robotics teams in various competitions, developing strategies for technical excellence, and mentoring students in robotics and mechatronics projects.
