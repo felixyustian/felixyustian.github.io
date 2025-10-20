@@ -135,8 +135,9 @@ GPA: 2.81 of 4.00
 * **Google Student Ambassador 2025** - Mentor for university delegates
 * **Pan-SEA AI Developer Challenge 2025** - Semi-Finalist / Top 100 Participants
 * **BRIN AIDeNation 2025** - Finalist / Top 80 Participants
-* **Maju Bareng AI Bootcamp 2025 by Google & AVPN** - Participant
-* **Pijak from IBM Skills Build and Dicoding Indonesia** - Participant 
+* **Maju Bareng AI Bootcamp 2025 by Hactiv8 Indonesia, Google & AVPN** - Participant
+* **Pijak from IBM Skills Build and Dicoding Indonesia** - Participant
+* **Microsoft Elevate 2025 by Microsoft Indonesia & Dicoding Indonesia** - Participant
 
 ---
 
