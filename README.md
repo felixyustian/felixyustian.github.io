@@ -1,5 +1,5 @@
 # FELIX YUSTIAN SETIONO
-### Robotics & Mechatronics Expert | Educator | Researcher
+### Artificial Intelligence & Machine Learning Expert | Robotics & Mechatronics Expert | Educator | Researcher
 
 * **Phone:** +62 81 284 0473 45
 * **Email:** felixyustian@gmail.com
@@ -138,6 +138,9 @@ GPA: 2.81 of 4.00
 * **Maju Bareng AI Bootcamp 2025 by Hactiv8 Indonesia, Google & AVPN** - Participant
 * **Pijak from IBM Skills Build and Dicoding Indonesia** - Participant
 * **Microsoft Elevate 2025 by Microsoft Indonesia & Dicoding Indonesia** - Participant
+* **IDCamp 2025 by Indosat and Dicoding Indonesia** - Participant
+* **DBS Coding Camp 2026 by DBS Foundation and Dicoding Indonesia** - Participant
+* **AWS Back-End Academy 2025 by AWS and Dicoding Indonesia** - Participant
 
 ---
 
