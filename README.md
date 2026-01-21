@@ -1,5 +1,5 @@
 # FELIX YUSTIAN SETIONO
-### Artificial Intelligence & Machine Learning Expert | Robotics & Mechatronics Expert | Educator | Researcher
+### Artificial Intelligence & Machine Learning Expert | Cloud Engineer & Enthusiast (GCP & AWS Certified) | Robotics & Mechatronics Expert | Educator | Researcher
 
 * **Phone:** +62 81 284 0473 45
 * **Email:** felixyustian@gmail.com
