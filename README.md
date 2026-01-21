@@ -142,6 +142,7 @@ GPA: 2.81 of 4.00
 * **IDCamp 2025 by Indosat and Dicoding Indonesia** - Participant
 * **DBS Coding Camp 2026 by DBS Foundation and Dicoding Indonesia** - Participant
 * **AWS Back-End Academy 2025 by AWS and Dicoding Indonesia** - Participant
+* **JuaraGCP Season 12 - 2026 by Google Developer Group Indonesia** - Participant
 
 ---
 
