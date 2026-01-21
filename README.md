@@ -1,9 +1,7 @@
 # FELIX YUSTIAN SETIONO
 ### Artificial Intelligence & Machine Learning Expert | Cloud Engineer & Enthusiast (GCP & AWS Certified) | Robotics & Mechatronics Expert | Educator | Researcher
 
-* **Phone:** +62 81 284 0473 45
 * **Email:** felixyustian@gmail.com
-* **Address:** Kembangarum 165 RT 05 / RW 02, Mranggen Demak Indonesia 59567
 * **LinkedIn:** https://linkedin.com/in/felixsetiono
 * **X:** https://x.com/felixyustian
 * **Facebook:** https://www.facebook.com/felixyustian
@@ -54,15 +52,12 @@ Gained practical experience in automotive manufacturing processes and quality co
 
 ### Professional Engineer
 **Professional Certification** | *April 2024 - October 2024*
-GPA: 4.00 of 4.00
 
 ### Master of Electrical Engineering
 **Institut Teknologi Bandung** | *January 2010 - August 2012*
-GPA: 3.17 of 4.00
 
 ### Bachelor of Electrical Engineering
 **Soegijapranata Catholic University** | *August 2005 - December 2009*
-GPA: 2.81 of 4.00
 
 ---
 
