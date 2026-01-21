@@ -103,7 +103,7 @@ GPA: 2.81 of 4.00
 * Tableau
 * Figma
 
-## Cloud Platforms
+### Cloud Platforms
 * Google Cloud Platform (GCP)
 * Amazon Web Services (AWS)
 
