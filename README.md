@@ -84,6 +84,11 @@ GPA: 2.81 of 4.00
 * HTML
 * PHP
 * MySQL
+* JavaScript
+* TypeScript
+* React
+* Next JS
+* Tailwind CSS
 
 ### Embedded Systems & AIoT
 * Arduino
@@ -128,6 +133,29 @@ GPA: 2.81 of 4.00
 * Leadership
 * Determination
 * Project Management
+
+## 🚀 Featured Projects
+
+### 🤖 Robotics & Autonomous Systems
+* **[Team SIRI - KRTI 2024](https://github.com/felixyustian/krti2024_scu_unika)**: Autonomous Hexarotor UAV control system using Raspberry Pi and PyTorch-based computer vision for the Indonesian Flying Robot Contest.
+* **[Team SOUNDBOT - KRBAI 2024](https://github.com/felixyustian/soundbot_unika_krbai)**: Autonomous Underwater Vehicle (AUV) software stack for underwater navigation and object detection.
+* **[Team SAURO - KRTMI 2024](https://github.com/felixyustian/krtmi2024_scu_unika)**: Autonomous Trash Collector Robot combining Arduino motor control with Raspberry Pi vision.
+
+### 🧠 Artificial Intelligence & LLMs
+* **[Synapse](https://github.com/felixyustian/synapse)**: An AI-powered meeting assistant that automatically generates summaries and extracts action items using LLaMA.
+* **[LangGraph Agent Test](https://github.com/felixyustian/langgraph_agent_test)**: Experimental implementation of cyclic, stateful AI agents on Google Cloud Platform.
+* **[Gemini Chatbot v2](https://github.com/felixyustian/gemini-chatbot.-v2)**: A Node.js web application integrating Google's Gemini API for interactive conversations.
+
+### 💻 Web & Tools
+* **[Next.js AI Chatbot](https://github.com/felixyustian/nextjs-ai-chatbot)**: A modern chatbot UI built with Next.js 14, Vercel AI SDK, and OpenAI streaming.
+* **[Django Quiz App](https://github.com/felixyustian/django_quizapp)**: An interactive quiz platform powered by Django and AI question generation.
+
+---
+
+## 📈 GitHub Stats
+
+![Felix's GitHub Stats](https://github-readme-stats.vercel.app/api?username=felixyustian&show_icons=true&theme=tokyonight)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=felixyustian&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
