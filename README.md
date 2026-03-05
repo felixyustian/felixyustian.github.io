@@ -1,5 +1,10 @@
-# FELIX YUSTIAN SETIONO
-### Artificial Intelligence & Machine Learning Expert | Cloud Engineer & Enthusiast (GCP & AWS Certified) | Robotics & Mechatronics Expert | Educator | Researcher
+# 👋 Hi, I'm Felix Yustian Setiono
+
+### Senior AI & Vision Engineer | LLM & Agentic Systems Architect
+
+A Senior AI Engineer with a rare dual-expertise: architecting low-level Edge AI systems using C/C++ and NVIDIA GPU optimization, while designing intelligent workflows using LLMs and Generative AI. Proven track record of translating complex machine learning research into real-world operational solutions, bridging the gap between hardware integration, automated data pipelines, and advanced AI models.
+
+---
 
 * **Email:** felixyustian@gmail.com
 * **LinkedIn:** https://linkedin.com/in/felixsetiono
@@ -11,12 +16,41 @@
 
 ---
 
-## Professional Summary
-Experienced Robotics and Mechatronics professional with over 10 years of expertise in unmanned systems, autonomous vehicles, and renewable energy. Proven track record in academia as a lecturer and researcher, combined with leadership experience in robotics teams. Skilled in machine learning, computer vision, embedded systems, and various programming languages. Committed to advancing technology education and research in Indonesia.
+### 🔬 Research & Technical Focus
+- **Applied Deep Learning:** Computer vision, CNNs, Transformers, optimization, inference acceleration  
+- **Embedded AI & Robotics:** Edge deployment, microcontroller integration, control algorithms  
+- **Data Engineering:** ETL pipelines, data cleaning, visualization dashboards (Python, Pandas, Plotly)  
+- **Software & Tools:** Python, C/C++, TensorFlow, PyTorch, OpenCV, ROS, Docker, FastAPI, SQL, Tableau, Google Cloud Platform (GCP), Amazon Web Services (AWS), Figma
+
+---
+
+### 🚀 Projects & Highlights
+- 🧩 **AI-Robotics Integration** – deep learning vision + embedded control for robotics platform  
+- ⚙️ **Edge AI Deployment** – optimized CNN model on microcontroller for object tracking  
+- 📊 **Data Visualization Pipeline** – real-time telemetry dashboard for robotics data streams  
+- 🤖 **Automation Toolkit** – open-source collection of ML utilities for hardware systems  
 
 ---
 
 ## Work Experience
+
+### Google Prompt Engineer Trainer (VILT)
+**SmartBridge Indonesia** | *February 2026 - Present* | *Remote* |
+Lead Trainer to deliver a comprehensive 30-hour Virtual Instructor-Led Training (VILT) on advanced Prompt Engineering for the "Last Mile Indonesia" program.
+
+Key Responsibilities & Achievements:
+* Teaching advanced AI reasoning frameworks, including Chain-of-Thought (CoT), Tree-of-Thought (ToT), and Self-Consistency to enhance LLM output accuracy.
+* Educating participants on Prompt Architecture (RTCFC Framework) and deep-level model parameters (Temperature, Top-P, Top-K).
+* Guiding developers through "Vibe Coding" and intent-based problem solving using the Gemini ecosystem.
+* Specializing in Cost-Accuracy trade-offs, tokenization mechanics, and red-teaming/adversarial prompting for enterprise-grade AI safety.
+
+### AI Image Data Contributor (Freelance)
+**SoftAge Information Technology Limited** | *February 2026 - Present* | *Remote* | Freelance AI Image Data Contributor
+
+* Collaborating on the SrotPix Image Data Collection Project to generate high-quality, structured visual datasets for AI model training.
+* ​Producing complex image sequences across specialized categories, including Character Consistency, Nested Objects, and Object Interactions.
+* ​Ensuring strict adherence to dataset QA guidelines, managing metadata consistency, lighting continuity, and precise spatial framing to reduce rejection rates.
+* ​Gaining hands-on experience in the foundational data-gathering phase of the Generative AI lifecycle.
 
 ### Freelance Software and AI Engineer
 **PostWork AI** | *October 2025 - Present* | *Remote* |
@@ -63,45 +97,12 @@ Gained practical experience in automotive manufacturing processes and quality co
 
 ## Skills
 
-### Technical Skills
-* Robotics & Mechatronics
-* Machine Learning
-* Computer Vision
-* Embedded Systems
-* SolidWorks
-* MATLAB-SIMULINK
-* PSIM
+### Core Technical Skills
+*	Computer Vision & Edge AI: CNNs, Inference Acceleration, OpenCV, Edge Deployment (Microcontrollers/IoT)
+*	Generative AI & LLMs: Transformers, Agentic Workflows, Structured JSON Parsing, Prompt Engineering
+*	Data & Backend Engineering: Python, FastAPI, ETL Pipelines, Data Visualization (Pandas, Plotly)
+*	Systems & Infrastructure: C/C++, PyTorch, TensorFlow, ROS, Docker
 
-### Programming Languages
-* Python
-* C/C++
-* BASIC
-* HTML
-* PHP
-* MySQL
-* JavaScript
-* TypeScript
-* React
-* Next JS
-* Tailwind CSS
-
-### Embedded Systems & AIoT
-* Arduino
-* Raspberry Pi
-* ESP32
-* Omron PLC
-* Schneider Electric Zelio PLC
-
-### Libraries & Frameworks
-* OpenCV
-* PyTorch
-* Pandas
-* Scikit-Learn
-* Matplotlib
-* Seaborn
-* Azure Platform
-* Tableau
-* Figma
 
 ### Cloud Platforms
 * Google Cloud Platform (GCP)
@@ -128,6 +129,8 @@ Gained practical experience in automotive manufacturing processes and quality co
 * Leadership
 * Determination
 * Project Management
+
+---
 
 ## 🚀 Featured Projects
 
@@ -182,5 +185,12 @@ Gained practical experience in automotive manufacturing processes and quality co
 
 ---
 
-## Research Interests
-Unmanned Systems, Autonomous Vehicles, Renewable Energy, Robotics, Mechatronics, Machine Learning, Computer Vision, Human Emotion Analysis, Embedded Systems
+### 💡 What Drives Me
+I’m passionate about **bridging theory and implementation** — guiding ideas from algorithm design to hardware realization.  
+Currently exploring opportunities to contribute to **society and research institutions**, building intelligent systems for the next generation of automation and IoT.
+
+---
+
+📫 **Connect with me**
+- LinkedIn → [linkedin.com/in/felixsetiono](https://linkedin.com/in/felixsetiono)  
+- Email → [felixyustian@gmail.com](felixyustian@gmail.com)
