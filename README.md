@@ -6,6 +6,10 @@ A Senior AI Engineer with a rare dual expertise: architecting low-level **Edge A
 
 ---
 
+[My Portfolio Profile Video](https://youtu.be/L-YUNmVDats)
+
+---
+
 - 📧 **Email:** [felixyustian@gmail.com](mailto:felixyustian@gmail.com)
 - 💼 **LinkedIn:** https://linkedin.com/in/felixsetiono
 - 🐦 **X:** https://x.com/felixyustian
