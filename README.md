@@ -129,14 +129,6 @@ Languages        │ Indonesian & Javanese (Native) · English — TOEFL iBT 80 
 
 ---
 
-## 📈 GitHub Stats
-
-[![Felix's GitHub Stats](https://github-readme-stats.vercel.app/api?username=felixyustian&show_icons=true&theme=tokyonight)](https://github.com/felixyustian)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=felixyustian&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
 ## 💼 Work Experience
 
 ### Google Prompt Engineering Trainer (VILT)
