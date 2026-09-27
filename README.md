@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Felix Yustian Setiono
 
-### Senior Edge AI Engineer | Computer Vision & ML Systems Architect | LLM & Agentic Systems
+### Senior Computer Vision Engineer & CV Team Lead | Edge AI & ML Systems Architect | LLM & Agentic Systems
 
 Senior AI/ML engineer and researcher with **10+ years** of building and deploying intelligent autonomous systems — from **Edge AI** (TensorRT, NVIDIA Jetson) and real-time computer-vision pipelines to **LLM-powered agentic workflows** (LangChain, LangGraph, MCP). I bridge hardware-level optimization and high-level AI architecture: sub-66.7 ms latency on 15 simultaneous 1080p streams with TensorRT FP16 on one end, enterprise agentic systems for banking risk and fraud analytics on the other.
 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% seo %}
+<meta property="og:image" content="{{ site.url }}/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}/assets/og-image.png">
+<link rel="icon" href="{{ '/assets/avatar.jpg' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body>
+<div class="grain"></div>
+<nav><div class="wrap nav-inner">
+  <a href="{{ '/' | relative_url }}" class="brand"><img src="{{ '/assets/avatar.jpg' | relative_url }}" alt=""><span class="bname">Felix Yustian Setiono</span></a>
+  <div class="nav-links">
+    <a href="{{ '/projects.html' | relative_url }}"{% if page.url == '/projects.html' %} class="active"{% endif %}>Projects</a>
+    <a href="{{ '/cv_ats_felix_yustian.html' | relative_url }}"{% if page.url == '/cv_ats_felix_yustian.html' %} class="active"{% endif %}>CV</a>
+    <a href="https://felixsetiono.my.id" target="_blank" rel="noopener">Website &#8599;</a>
+  </div>
+</div></nav>
+
+<main class="wrap prose">
+{{ content }}
+</main>
+
+<footer><div class="wrap foot-inner">
+  <span>&copy; <span id="year"></span> Felix Yustian Setiono</span>
+  <span class="foot-nav"><a href="{{ '/projects.html' | relative_url }}">Projects</a><a href="{{ '/cv_ats_felix_yustian.html' | relative_url }}">CV</a><a href="https://felixsetiono.my.id">felixsetiono.my.id</a></span>
+  <span class="here">Edge AI &amp; Robotics &middot; Built with intent</span>
+</div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+// Turn project lists (items that open with a bold repo link and carry a stack line) into cards.
+document.querySelectorAll('.prose li').forEach(function (li) {
+  var first = li.firstElementChild;
+  if (first && first.tagName === 'STRONG' && first.querySelector('a') && li.querySelector('code')) {
+    li.classList.add('pcard');
+    li.parentElement.classList.add('pgrid');
+  }
+});
+// Colour each h2 section accent in turn: blue, red, green.
+document.querySelectorAll('.prose h2').forEach(function (h, i) {
+  h.style.setProperty('--c', ['var(--blue)', 'var(--red)', 'var(--green)'][i % 3]);
+});
+</script>
+</body>
+</html>

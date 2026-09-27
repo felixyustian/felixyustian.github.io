@@ -1,83 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Projects | Felix Yustian Setiono</title>
-<meta name="description" content="Live list of Felix Yustian Setiono's public GitHub projects, updated automatically.">
-<meta property="og:title" content="Projects | Felix Yustian Setiono">
-<meta property="og:description" content="Live list of my public GitHub projects: Edge AI, computer vision, LLM and agentic systems.">
-<meta property="og:url" content="https://felixyustian.github.io/projects.html">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://felixyustian.github.io/projects.html">
+---
+layout: default
+title: Projects
+description: Live list of Felix Yustian Setiono's public GitHub projects across Edge AI, computer vision, LLM and agentic systems, updated automatically.
+---
 <style>
-:root{
-  --bg:#f7f8fa;--card:#ffffff;--ink:#1a1d24;--ink-soft:#5b6272;--line:#e3e6ec;
-  --accent:#2f6fde;--accent-soft:#e8effc;--star:#b7791f;
-}
-@media (prefers-color-scheme: dark){
-  :root{
-    --bg:#0a0d14;--card:#121724;--ink:#eaeef6;--ink-soft:#8b93a5;--line:#232a3a;
-    --accent:#6ea0ff;--accent-soft:#1a2440;--star:#e0b050;
-  }
-}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);
-  font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-a{color:var(--accent);text-decoration:none}
-a:hover{text-decoration:underline}
-.wrap{max-width:1040px;margin:0 auto;padding:32px 16px 64px}
-header h1{margin:0 0 4px;font-size:1.9rem}
-header p{margin:0;color:var(--ink-soft)}
-nav{margin-top:12px;display:flex;gap:16px;flex-wrap:wrap;font-size:.95rem}
-h2{margin:36px 0 12px;font-size:1.2rem}
-.controls{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 16px}
-.controls input,.controls select{font:inherit;color:var(--ink);background:var(--card);
-  border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.phead .label{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);display:inline-flex;align-items:center;gap:.7em;margin-bottom:20px}
+.phead .label::before{content:"";width:30px;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--blue),var(--red),var(--green))}
+.phead h1 .dot{color:var(--blue)}
+.phead p{color:var(--ink-soft);max-width:60ch}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 18px}
+.controls input,.controls select{font:inherit;font-size:.9rem;color:var(--ink);background:var(--bg-2);border:1px solid var(--line-2);border-radius:10px;padding:10px 12px}
 .controls input{flex:1 1 220px;min-width:0}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;
-  display:flex;flex-direction:column;gap:8px;min-width:0}
-.card h3{margin:0;font-size:1.05rem;word-break:break-word}
-.card p{margin:0;color:var(--ink-soft);font-size:.93rem;flex:1}
+.controls input:focus,.controls select:focus{outline:2px solid var(--blue);outline-offset:1px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{background:linear-gradient(180deg,var(--bg-2),var(--bg));border:1px solid var(--line);border-radius:14px;padding:20px 22px;display:flex;flex-direction:column;gap:9px;min-width:0;transition:transform .4s var(--ease),border-color .4s var(--ease),box-shadow .4s var(--ease)}
+.card:hover{transform:translateY(-4px);border-color:var(--line-2);box-shadow:0 20px 48px -28px var(--blue)}
+.card h3{margin:0;font-family:var(--font-display);font-size:1.08rem;word-break:break-word}
+.card h3 a{color:var(--ink)}
+.card p{margin:0;color:var(--ink-soft);font-size:.9rem;flex:1}
 .topics{display:flex;flex-wrap:wrap;gap:6px}
-.topic{font-size:.75rem;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 8px;cursor:pointer;border:0;font-family:inherit}
-.meta{display:flex;gap:14px;flex-wrap:wrap;font-size:.82rem;color:var(--ink-soft)}
-.star{color:var(--star)}
-.status{color:var(--ink-soft);padding:12px 0}
-footer{margin-top:40px;color:var(--ink-soft);font-size:.85rem}
+.topic{font-family:var(--font-mono);font-size:.62rem;color:var(--ink-soft);background:none;padding:4px 8px;border:1px solid var(--line);border-radius:6px;cursor:pointer}
+.topic:hover{color:var(--ink);border-color:var(--line-2)}
+.meta{display:flex;gap:14px;flex-wrap:wrap;font-family:var(--font-mono);font-size:.7rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.03em}
+.star{color:var(--red)}
+.status{font-family:var(--font-mono);font-size:.78rem;color:var(--ink-soft);padding:8px 0}
 </style>
-</head>
-<body>
-<div class="wrap">
-  <header>
-    <h1>Projects</h1>
-    <p>Live from <a href="https://github.com/felixyustian">github.com/felixyustian</a>. New repositories show up here automatically.</p>
-    <nav>
-      <a href="/">← Home</a>
-      <a href="https://felixsetiono.my.id/work">Website</a>
-      <a href="https://linkedin.com/in/felixsetiono">LinkedIn</a>
-      <a href="/cv_ats_felix_yustian.html">CV</a>
-    </nav>
-  </header>
 
-  <h2>Featured</h2>
-  <div id="featured" class="grid"><div class="status">Loading…</div></div>
+<header class="phead">
+  <span class="label">Portfolio &middot; live from GitHub</span>
+  <h1>Projects<span class="dot">.</span></h1>
+  <p>Pulled live from <a href="https://github.com/felixyustian">github.com/felixyustian</a>, so new repositories show up here automatically. For the curated portfolio, see <a href="https://felixsetiono.my.id/work">felixsetiono.my.id/work</a>.</p>
+</header>
 
-  <h2>All repositories <span id="count" class="status"></span></h2>
-  <div class="controls">
-    <input id="q" type="search" placeholder="Search name, description or topic" aria-label="Search projects">
-    <select id="lang" aria-label="Filter by language"><option value="">All languages</option></select>
-    <select id="sort" aria-label="Sort">
-      <option value="pushed">Recently updated</option>
-      <option value="stars">Most stars</option>
-      <option value="name">Name</option>
-    </select>
-  </div>
-  <div id="all" class="grid"><div class="status">Loading…</div></div>
+<h2>Featured</h2>
+<div id="featured" class="grid"><div class="status">Loading&hellip;</div></div>
 
-  <footer id="updated"></footer>
+<h2>All repositories <span id="count" class="status"></span></h2>
+<div class="controls">
+  <input id="q" type="search" placeholder="Search name, description or topic" aria-label="Search projects">
+  <select id="lang" aria-label="Filter by language"><option value="">All languages</option></select>
+  <select id="sort" aria-label="Sort">
+    <option value="pushed">Recently updated</option>
+    <option value="stars">Most stars</option>
+    <option value="name">Name</option>
+  </select>
 </div>
+<div id="all" class="grid"><div class="status">Loading&hellip;</div></div>
+
+<p id="updated" class="status"></p>
 
 <script>
 (function(){
@@ -194,5 +164,3 @@ footer{margin-top:40px;color:var(--ink-soft);font-size:.85rem}
     .then(show, fail);
 })();
 </script>
-</body>
-</html>

@@ -1,34 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Curriculum Vitae - Felix Yustian Setiono</title>
-<meta name="description" content="CV of Felix Yustian Setiono, Senior Edge AI Engineer and Computer Vision & ML Systems Architect.">
-<link rel="canonical" href="https://felixyustian.github.io/cv_ats_felix_yustian.html">
+---
+layout: default
+title: Curriculum Vitae
+description: Curriculum vitae of Felix Yustian Setiono, Senior Computer Vision Engineer & CV Team Lead and Edge AI & ML Systems Architect.
+---
 <style>
-:root{--ink:#1a1d24;--soft:#4b5263;--accent:#1f3a68;--line:#1f3a68;--bg:#ffffff}
-@media (prefers-color-scheme: dark){:root{--ink:#e6e9ef;--soft:#a3aab8;--accent:#8fb3ff;--line:#3d5a8f;--bg:#0f1218}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Calibri,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-main{max-width:860px;margin:0 auto;padding:36px 16px 56px}
-a{color:var(--accent)}
-h1{margin:0;font-size:2rem;color:var(--accent)}
-.headline{margin:2px 0 4px;color:var(--soft);font-size:1.05rem}
-.contact{margin:0;font-size:.92rem}
-h2{margin:26px 0 8px;padding-bottom:3px;border-bottom:2px solid var(--line);color:var(--accent);font-size:1.02rem;letter-spacing:.04em;text-transform:uppercase}
-h3{margin:14px 0 2px;font-size:.98rem}
-h3 .meta{font-weight:400;color:var(--soft)}
-ul{margin:4px 0 0;padding-left:20px}
-li{margin:2px 0}
-p{margin:4px 0}
-.skills p{margin:3px 0}
-.note{font-style:italic;color:var(--soft)}
-@media print{body{font-size:11pt}main{padding:0}a{color:inherit;text-decoration:none}}
+.cv h1{font-size:clamp(2rem,5vw,3.2rem)}
+.cv .headline{font-family:var(--font-mono);font-size:.95rem;color:var(--ink-soft);margin:.2em 0 .8em}
+.cv .contact{font-size:.9rem;margin:.2em 0}
+.cv h2{font-size:1.25rem;margin:1.8em 0 .6em}
+.cv h3{font-family:var(--font-body);font-size:1rem;font-weight:600;margin:1.1em 0 .2em}
+.cv h3 .meta{font-weight:400;color:var(--ink-soft)}
+.cv .skills p{margin:.25em 0;max-width:none}
+.cv p{max-width:none}
+.cv .note{font-style:italic;color:var(--ink-soft)}
+.cv li{color:var(--ink-soft)}
+.cv li strong{color:var(--ink)}
+.cv .print{float:right;font-family:var(--font-mono);font-size:.75rem;color:var(--ink-soft);border:1px solid var(--line-2);border-radius:100px;padding:8px 14px;background:none;cursor:pointer}
+.cv .print:hover{color:var(--ink)}
+@media print{.cv .print{display:none}}
 </style>
-</head>
-<body>
-<main>
+<div class="cv">
+<button class="print" type="button" onclick="window.print()">Print / Save as PDF</button>
 <header>
   <h1>Felix Yustian Setiono</h1>
   <p class="headline">Senior Edge AI Engineer | Computer Vision &amp; ML Systems Architect</p>
@@ -234,6 +226,4 @@ p{margin:4px 0}
 <li>Python Software Foundation (PSF) — Member</li>
 <li>Python Indonesian Society — Member</li>
 </ul>
-</main>
-</body>
-</html>
+</div>
