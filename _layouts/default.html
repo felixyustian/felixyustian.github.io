@@ -46,7 +46,9 @@ document.querySelectorAll('.prose li').forEach(function (li) {
     li.classList.add('pcard');
     li.parentElement.classList.add('pgrid');
     first.classList.add('ptitle');
-    var next = first.nextElementSibling;
+    // An event label is an <em> right after the title, with only whitespace between.
+    var next = first.nextSibling;
+    while (next && next.nodeType === 3 && !next.textContent.trim()) next = next.nextSibling;
     if (next && next.tagName === 'EM') next.classList.add('pevent');
   }
 });
