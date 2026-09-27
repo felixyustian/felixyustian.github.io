@@ -68,9 +68,10 @@ nav{position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdro
 .prose ul.pgrid{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
 .prose li.pcard{margin:0;background:linear-gradient(180deg,var(--bg-2),var(--bg));border:1px solid var(--line);border-radius:14px;padding:20px 22px;font-size:.93rem;color:var(--ink-soft);transition:transform .4s var(--ease),border-color .4s var(--ease),box-shadow .4s var(--ease)}
 .prose li.pcard:hover{transform:translateY(-4px);border-color:var(--line-2);box-shadow:0 20px 48px -28px var(--blue)}
-.prose li.pcard > strong:first-child{display:block;font-family:var(--font-display);font-size:1.08rem;margin-bottom:.2em}
-.prose li.pcard > strong:first-child a{color:var(--ink)}
-.prose li.pcard > em{display:block;font-style:normal;font-family:var(--font-mono);font-size:.7rem;letter-spacing:.03em;text-transform:uppercase;color:var(--blue);margin-bottom:.4em}
+.prose li.pcard p{margin:0;max-width:none}
+.prose li.pcard .ptitle{display:block;font-family:var(--font-display);font-size:1.08rem;margin-bottom:.2em}
+.prose li.pcard .ptitle a{color:var(--ink)}
+.prose li.pcard .pevent{display:block;font-style:normal;font-family:var(--font-mono);font-size:.7rem;letter-spacing:.03em;text-transform:uppercase;color:var(--blue);margin-bottom:.4em}
 .prose li.pcard strong{color:var(--ink)}
 .prose li.pcard code{display:inline-block;margin-top:.6em}
 
