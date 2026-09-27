@@ -38,11 +38,16 @@
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
 // Turn project lists (items that open with a bold repo link and carry a stack line) into cards.
+// Jekyll's kramdown wraps loose list items in <p>, so look inside it too.
 document.querySelectorAll('.prose li').forEach(function (li) {
-  var first = li.firstElementChild;
+  var box = li.firstElementChild && li.firstElementChild.tagName === 'P' ? li.firstElementChild : li;
+  var first = box.firstElementChild;
   if (first && first.tagName === 'STRONG' && first.querySelector('a') && li.querySelector('code')) {
     li.classList.add('pcard');
     li.parentElement.classList.add('pgrid');
+    first.classList.add('ptitle');
+    var next = first.nextElementSibling;
+    if (next && next.tagName === 'EM') next.classList.add('pevent');
   }
 });
 // Colour each h2 section accent in turn: blue, red, green.
