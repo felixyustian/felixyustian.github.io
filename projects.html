@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Felix Yustian Setiono</title>
+<meta name="description" content="Live list of Felix Yustian Setiono's public GitHub projects, updated automatically.">
+<meta property="og:title" content="Projects | Felix Yustian Setiono">
+<meta property="og:description" content="Live list of my public GitHub projects: Edge AI, computer vision, LLM and agentic systems.">
+<meta property="og:url" content="https://felixyustian.github.io/projects.html">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://felixyustian.github.io/projects.html">
+<style>
+:root{
+  --bg:#f7f8fa;--card:#ffffff;--ink:#1a1d24;--ink-soft:#5b6272;--line:#e3e6ec;
+  --accent:#2f6fde;--accent-soft:#e8effc;--star:#b7791f;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0a0d14;--card:#121724;--ink:#eaeef6;--ink-soft:#8b93a5;--line:#232a3a;
+    --accent:#6ea0ff;--accent-soft:#1a2440;--star:#e0b050;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 16px 64px}
+header h1{margin:0 0 4px;font-size:1.9rem}
+header p{margin:0;color:var(--ink-soft)}
+nav{margin-top:12px;display:flex;gap:16px;flex-wrap:wrap;font-size:.95rem}
+h2{margin:36px 0 12px;font-size:1.2rem}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 16px}
+.controls input,.controls select{font:inherit;color:var(--ink);background:var(--card);
+  border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.controls input{flex:1 1 220px;min-width:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;
+  display:flex;flex-direction:column;gap:8px;min-width:0}
+.card h3{margin:0;font-size:1.05rem;word-break:break-word}
+.card p{margin:0;color:var(--ink-soft);font-size:.93rem;flex:1}
+.topics{display:flex;flex-wrap:wrap;gap:6px}
+.topic{font-size:.75rem;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 8px;cursor:pointer;border:0;font-family:inherit}
+.meta{display:flex;gap:14px;flex-wrap:wrap;font-size:.82rem;color:var(--ink-soft)}
+.star{color:var(--star)}
+.status{color:var(--ink-soft);padding:12px 0}
+footer{margin-top:40px;color:var(--ink-soft);font-size:.85rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Projects</h1>
+    <p>Live from <a href="https://github.com/felixyustian">github.com/felixyustian</a>. New repositories show up here automatically.</p>
+    <nav>
+      <a href="/">← Home</a>
+      <a href="https://linkedin.com/in/felixsetiono">LinkedIn</a>
+      <a href="/cv_ats_felix_yustian.html">CV</a>
+    </nav>
+  </header>
+
+  <h2>Featured</h2>
+  <div id="featured" class="grid"><div class="status">Loading…</div></div>
+
+  <h2>All repositories <span id="count" class="status"></span></h2>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search name, description or topic" aria-label="Search projects">
+    <select id="lang" aria-label="Filter by language"><option value="">All languages</option></select>
+    <select id="sort" aria-label="Sort">
+      <option value="pushed">Recently updated</option>
+      <option value="stars">Most stars</option>
+      <option value="name">Name</option>
+    </select>
+  </div>
+  <div id="all" class="grid"><div class="status">Loading…</div></div>
+
+  <footer id="updated"></footer>
+</div>
+
+<script>
+(function(){
+  var CACHE_KEY = 'fys-projects-v1', CACHE_MS = 10 * 60 * 1000;
+  var repos = [], cfg = {user:'felixyustian', featured:[], hidden:[]};
+
+  function el(tag, cls, text){
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function ago(iso){
+    var d = (Date.now() - new Date(iso)) / 86400000;
+    if (d < 1) return 'today';
+    if (d < 2) return 'yesterday';
+    if (d < 30) return Math.floor(d) + ' days ago';
+    if (d < 365) return Math.floor(d / 30) + ' mo ago';
+    return Math.floor(d / 365) + ' yr ago';
+  }
+  function card(r){
+    var c = el('article', 'card');
+    var h = el('h3'), a = el('a', null, r.name.replace(/[_-]+/g, ' '));
+    a.href = r.homepage || r.html_url;
+    h.appendChild(a); c.appendChild(h);
+    c.appendChild(el('p', null, r.description || 'No description yet.'));
+    if (r.topics && r.topics.length){
+      var t = el('div', 'topics');
+      r.topics.slice(0, 6).forEach(function(x){
+        var b = el('button', 'topic', x);
+        b.type = 'button';
+        b.onclick = function(){ document.getElementById('q').value = x; render(); };
+        t.appendChild(b);
+      });
+      c.appendChild(t);
+    }
+    var m = el('div', 'meta');
+    if (r.language) m.appendChild(el('span', null, r.language));
+    if (r.stargazers_count) m.appendChild(el('span', 'star', '★ ' + r.stargazers_count));
+    m.appendChild(el('span', null, 'Updated ' + ago(r.pushed_at)));
+    var code = el('a', null, 'Code'); code.href = r.html_url; m.appendChild(code);
+    c.appendChild(m);
+    return c;
+  }
+  function fill(id, list, empty){
+    var box = document.getElementById(id);
+    box.replaceChildren();
+    if (!list.length) box.appendChild(el('div', 'status', empty));
+    list.forEach(function(r){ box.appendChild(card(r)); });
+  }
+  function render(){
+    var q = document.getElementById('q').value.trim().toLowerCase();
+    var lang = document.getElementById('lang').value;
+    var sort = document.getElementById('sort').value;
+    var list = repos.filter(function(r){
+      if (lang && r.language !== lang) return false;
+      if (!q) return true;
+      return (r.name + ' ' + (r.description || '') + ' ' + (r.topics || []).join(' ')).toLowerCase().indexOf(q) !== -1;
+    });
+    list.sort(function(a, b){
+      if (sort === 'stars') return b.stargazers_count - a.stargazers_count || new Date(b.pushed_at) - new Date(a.pushed_at);
+      if (sort === 'name') return a.name.localeCompare(b.name);
+      return new Date(b.pushed_at) - new Date(a.pushed_at);
+    });
+    document.getElementById('count').textContent = '(' + list.length + ')';
+    fill('all', list, 'No projects match.');
+  }
+  function show(data){
+    var hidden = cfg.hidden || [];
+    repos = data.filter(function(r){ return !r.fork && !r.archived && hidden.indexOf(r.name) === -1; });
+    var byName = {};
+    repos.forEach(function(r){ byName[r.name] = r; });
+    var featured = (cfg.featured || []).map(function(n){ return byName[n]; }).filter(Boolean);
+    if (!featured.length) featured = repos.slice().sort(function(a, b){ return b.stargazers_count - a.stargazers_count; }).slice(0, 6);
+    fill('featured', featured, 'Nothing featured yet.');
+
+    var sel = document.getElementById('lang');
+    Array.from(new Set(repos.map(function(r){ return r.language; }).filter(Boolean))).sort().forEach(function(l){
+      var o = el('option', null, l); o.value = l; sel.appendChild(o);
+    });
+    render();
+    document.getElementById('updated').textContent = 'Fetched from the GitHub API on ' + new Date().toLocaleString() + '.';
+  }
+  function fail(){
+    var msg = 'Could not load projects right now (GitHub may be rate-limiting). ';
+    ['featured', 'all'].forEach(function(id){
+      var box = document.getElementById(id), s = el('div', 'status', msg), a = el('a', null, 'View them on GitHub');
+      a.href = 'https://github.com/' + cfg.user + '?tab=repositories';
+      s.appendChild(a); box.replaceChildren(s);
+    });
+  }
+
+  ['q', 'lang', 'sort'].forEach(function(id){
+    document.getElementById(id).addEventListener('input', render);
+  });
+
+  fetch('projects.json').then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; })
+    .then(function(c){
+      cfg = Object.assign(cfg, c);
+      try {
+        var cached = JSON.parse(sessionStorage.getItem(CACHE_KEY) || 'null');
+        if (cached && Date.now() - cached.t < CACHE_MS) return cached.data;
+      } catch (e) {}
+      return fetch('https://api.github.com/users/' + cfg.user + '/repos?per_page=100&sort=pushed', {
+        headers: {Accept: 'application/vnd.github+json'}
+      }).then(function(r){
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      }).then(function(data){
+        try { sessionStorage.setItem(CACHE_KEY, JSON.stringify({t: Date.now(), data: data})); } catch (e) {}
+        return data;
+      });
+    })
+    .then(show, fail);
+})();
+</script>
+</body>
+</html>
