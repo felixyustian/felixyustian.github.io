@@ -220,27 +220,27 @@ Languages        │ Indonesian & Javanese (Native) · English — TOEFL iBT 80 
 - Facilitate troubleshooting discussions and community networking within the Google Skills developer ecosystem.
 
 ### Google Prompt Engineering Trainer (VILT)
-**Smartbridge International — Last Mile Indonesia Program** | *February 2026 – Present* | Remote
+**Smartbridge International — Last Mile Indonesia Program** | *February 2026 – July 2026* | Remote
 
 Lead Trainer for a 30-hour Virtual Instructor-Led Training (VILT) on advanced Prompt Engineering, delivered to developer cohorts across Indonesia's national 'Last Mile' digital upskilling program.
 
-- Teaching advanced AI reasoning frameworks: Chain-of-Thought (CoT), Tree-of-Thought (ToT), and Self-Consistency to optimize LLM output accuracy and reliability
-- Educating participants on Prompt Architecture (RTCFC Framework) and deep-level model parameters (Temperature, Top-P, Top-K) for precise model behavior control
-- Guiding developers through Vibe Coding, intent-based problem solving, and agentic workflows using the Gemini ecosystem and Google Cloud
-- Covering cost-accuracy trade-offs, tokenization mechanics, and red-teaming / adversarial prompting for enterprise-grade AI safety
+- Taught advanced AI reasoning frameworks: Chain-of-Thought (CoT), Tree-of-Thought (ToT), and Self-Consistency to optimize LLM output accuracy and reliability
+- Educated participants on Prompt Architecture (RTCFC Framework) and deep-level model parameters (Temperature, Top-P, Top-K) for precise model behavior control
+- Guided developers through Vibe Coding, intent-based problem solving, and agentic workflows using the Gemini ecosystem and Google Cloud
+- Covered cost-accuracy trade-offs, tokenization mechanics, and red-teaming / adversarial prompting for enterprise-grade AI safety
 
 ### AI Image Data Contributor (Freelance)
-**SoftAge Information Technology Limited** | *February 2026 – Present* | Remote
+**SoftAge Information Technology Limited** | *February 2026 – July 2026* | Remote
 
-- Contributing to the SrotPix Image Data Collection Project — generating high-quality structured visual datasets for AI model training across specialized categories including Character Consistency, Nested Objects, and Object Interactions
-- Ensuring strict adherence to dataset QA guidelines: metadata consistency, lighting continuity, and precise spatial framing
-- Gaining hands-on experience in the foundational data-gathering phase of the Generative AI model development lifecycle
+- Contributed to the SrotPix Image Data Collection Project — generated high-quality structured visual datasets for AI model training across specialized categories including Character Consistency, Nested Objects, and Object Interactions
+- Ensured strict adherence to dataset QA guidelines: metadata consistency, lighting continuity, and precise spatial framing
+- Gained hands-on experience in the foundational data-gathering phase of the Generative AI model development lifecycle
 
 ### Freelance Software & AI Engineer
-**PostWork AI** | *October 2025 – Present* | Remote
+**PostWork AI** | *October 2025 – July 2026* | Remote
 
-- Developing, fine-tuning, and evaluating AI models prior to production deployment
-- Building bespoke software solutions for client-specific automation and ML integration needs across diverse remote engagements
+- Developed, fine-tuned, and evaluated AI models prior to production deployment
+- Built bespoke software solutions for client-specific automation and ML integration needs across diverse remote engagements
 
 ### Lead AI Researcher & Robotics Technical Lead
 **Soegijapranata Catholic University, Semarang** | *May 2014 – Present* | Onsite
