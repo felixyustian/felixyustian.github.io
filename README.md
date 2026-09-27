@@ -13,14 +13,14 @@ Now **Senior Computer Vision Engineer & CV Team Lead at Sigmawave AI (Singapore)
 ---
 
 - 📧 **Email:** [felixyustian@gmail.com](mailto:felixyustian@gmail.com)
-- 🌐 **Website:** https://felixsetiono.my.id
-- 💼 **LinkedIn:** https://linkedin.com/in/felixsetiono
-- 🐦 **X:** https://x.com/felixyustian
-- 📘 **Facebook:** https://www.facebook.com/felixyustian
-- 📸 **Instagram:** https://www.instagram.com/felixyustian/
-- 🎓 **Google Scholar:** https://scholar.google.com/citations?user=W_NZMf4AAAAJ&hl=en
-- 🔬 **ORCiD:** https://orcid.org/0000-0002-5240-0466
-- 🗂️ **GitHub Pages:** https://felixyustian.github.io
+- 🌐 **Website:** [felixsetiono.my.id](https://felixsetiono.my.id)
+- 💼 **LinkedIn:** [linkedin.com/in/felixsetiono](https://linkedin.com/in/felixsetiono)
+- 🐦 **X:** [x.com/felixyustian](https://x.com/felixyustian)
+- 📘 **Facebook:** [facebook.com/felixyustian](https://www.facebook.com/felixyustian)
+- 📸 **Instagram:** [instagram.com/felixyustian](https://www.instagram.com/felixyustian/)
+- 🎓 **Google Scholar:** [scholar.google.com/citations?user=W_NZMf4AAAAJ](https://scholar.google.com/citations?user=W_NZMf4AAAAJ&hl=en)
+- 🔬 **ORCiD:** [orcid.org/0000-0002-5240-0466](https://orcid.org/0000-0002-5240-0466)
+- 🗂️ **GitHub Pages:** [felixyustian.github.io](https://felixyustian.github.io)
 
 ---
 
@@ -337,8 +337,8 @@ Lead Trainer for a 30-hour Virtual Instructor-Led Training (VILT) on advanced Pr
 | 2014 | Boost Inverter Control (PI + Hysteresis) · Solar PV Battery Charger (dsPIC30F4012) | ICITACEE 2014 |
 | 2011 | Maximum Power Point Tracker as Regulated Voltage Supply using Ripple Correlation Control | ICEEI 2011, ITB |
 
-🎓 **Google Scholar:** https://scholar.google.com/citations?user=W_NZMf4AAAAJ&hl=en | 40 citations · h-index 4
-📖 **Scopus ID:** 5326490710 | 18 citations · h-index 3 · **ORCID:** https://orcid.org/0000-0002-5240-0466
+🎓 **Google Scholar:** [scholar.google.com/citations?user=W_NZMf4AAAAJ](https://scholar.google.com/citations?user=W_NZMf4AAAAJ&hl=en) | 40 citations · h-index 4
+📖 **Scopus ID:** [5326490710](https://www.scopus.com/authid/detail.uri?authorId=5326490710) | 18 citations · h-index 3 · **ORCID:** [orcid.org/0000-0002-5240-0466](https://orcid.org/0000-0002-5240-0466)
 
 ---
 
