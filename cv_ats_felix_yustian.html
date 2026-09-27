@@ -1,474 +1,239 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae - Felix Yustian Setiono</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Inter', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
-        }
-        
-        .cv-container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
-        }
-        
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 40px 30px;
-            text-align: center;
-        }
-        
-        .header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 10px;
-            letter-spacing: -0.5px;
-        }
-        
-        .header .title {
-            font-size: 1.2rem;
-            font-weight: 400;
-            opacity: 0.9;
-            margin-bottom: 20px;
-        }
-        
-        .contact-info {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            font-size: 0.9rem;
-        }
-        
-        .contact-info span {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-        
-        .main-content {
-            padding: 40px 30px;
-        }
-        
-        .section {
-            margin-bottom: 35px;
-        }
-        
-        .section-title {
-            font-size: 1.4rem;
-            font-weight: 600;
-            color: #667eea;
-            margin-bottom: 20px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid #e9ecef;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        
-        .experience-item, .education-item {
-            margin-bottom: 25px;
-            padding-left: 20px;
-            border-left: 3px solid #667eea;
-        }
-        
-        .experience-item:last-child, .education-item:last-child {
-            margin-bottom: 0;
-        }
-        
-        .item-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 8px;
-            flex-wrap: wrap;
-        }
-        
-        .item-title {
-            font-weight: 600;
-            font-size: 1.1rem;
-            color: #2d3748;
-        }
-        
-        .item-company, .item-school {
-            color: #667eea;
-            font-weight: 500;
-        }
-        
-        .item-date {
-            color: #718096;
-            font-size: 0.9rem;
-            white-space: nowrap;
-        }
-        
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        
-        .skill-category {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 8px;
-            border-left: 4px solid #667eea;
-        }
-        
-        .skill-category h4 {
-            color: #667eea;
-            margin-bottom: 10px;
-            font-size: 1rem;
-        }
-        
-        .skill-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-        
-        .skill-tag {
-            background: #e9ecef;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            color: #495057;
-        }
-        
-        .achievements-list {
-            list-style: none;
-        }
-        
-        .achievements-list li {
-            padding: 8px 0;
-            border-bottom: 1px solid #e9ecef;
-        }
-        
-        .achievements-list li:last-child {
-            border-bottom: none;
-        }
-        
-        .publications-list {
-            list-style: none;
-        }
-        
-        .publications-list li {
-            margin-bottom: 15px;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            border-left: 4px solid #667eea;
-        }
-        
-        .memberships-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        
-        .membership-item {
-            background: #667eea;
-            color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-        }
-        
-        @media (max-width: 768px) {
-            .cv-container {
-                margin: 0;
-            }
-            
-            .header {
-                padding: 30px 20px;
-            }
-            
-            .header h1 {
-                font-size: 2rem;
-            }
-            
-            .main-content {
-                padding: 30px 20px;
-            }
-            
-            .item-header {
-                flex-direction: column;
-                gap: 5px;
-            }
-            
-            .skills-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-        
-        /* PDF-specific optimizations */
-        @media print {
-            body {
-                background: white;
-            }
-            
-            .cv-container {
-                box-shadow: none;
-                max-width: none;
-            }
-            
-            .header {
-                background: #667eea !important;
-                -webkit-print-color-adjust: exact;
-                print-color-adjust: exact;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curriculum Vitae - Felix Yustian Setiono</title>
+<meta name="description" content="CV of Felix Yustian Setiono, Senior Edge AI Engineer and Computer Vision & ML Systems Architect.">
+<link rel="canonical" href="https://felixyustian.github.io/cv_ats_felix_yustian.html">
+<style>
+:root{--ink:#1a1d24;--soft:#4b5263;--accent:#1f3a68;--line:#1f3a68;--bg:#ffffff}
+@media (prefers-color-scheme: dark){:root{--ink:#e6e9ef;--soft:#a3aab8;--accent:#8fb3ff;--line:#3d5a8f;--bg:#0f1218}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Calibri,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:860px;margin:0 auto;padding:36px 16px 56px}
+a{color:var(--accent)}
+h1{margin:0;font-size:2rem;color:var(--accent)}
+.headline{margin:2px 0 4px;color:var(--soft);font-size:1.05rem}
+.contact{margin:0;font-size:.92rem}
+h2{margin:26px 0 8px;padding-bottom:3px;border-bottom:2px solid var(--line);color:var(--accent);font-size:1.02rem;letter-spacing:.04em;text-transform:uppercase}
+h3{margin:14px 0 2px;font-size:.98rem}
+h3 .meta{font-weight:400;color:var(--soft)}
+ul{margin:4px 0 0;padding-left:20px}
+li{margin:2px 0}
+p{margin:4px 0}
+.skills p{margin:3px 0}
+.note{font-style:italic;color:var(--soft)}
+@media print{body{font-size:11pt}main{padding:0}a{color:inherit;text-decoration:none}}
+</style>
 </head>
 <body>
-    <div class="cv-container">
-        <!-- Header Section -->
-        <div class="header">
-            <h1>FELIX YUSTIAN SETIONO</h1>
-            <div class="title">Robotics & Mechatronics Expert | Educator | Researcher</div>
-            <div class="contact-info">
-                <span>📱 +62 81 284 0473 45</span>
-                <span>📧 felixyustian@gmail.com</span>
-                <span>📍 Kembangarum 165 RT 05 / RW 02, Mranggen Demak Indonesia 59567</span>
-            </div>
-        </div>
-        
-        <!-- Main Content -->
-        <div class="main-content">
-            <!-- Professional Summary -->
-            <div class="section">
-                <h2 class="section-title">Professional Summary</h2>
-                <p>Experienced Robotics and Mechatronics professional with over 10 years of expertise in unmanned systems, autonomous vehicles, and renewable energy. Proven track record in academia as a lecturer and researcher, combined with leadership experience in robotics teams. Skilled in machine learning, computer vision, embedded systems, and various programming languages. Committed to advancing technology education and research in Indonesia.</p>
-            </div>
-            
-            <!-- Work Experience -->
-            <div class="section">
-                <h2 class="section-title">Work Experience</h2>
-                
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">General Manager and Main Advisor</div>
-                            <div class="item-company">Robotics Team Soegijapranata</div>
-                        </div>
-                        <div class="item-date">August 2014 - Present</div>
-                    </div>
-                    <p>Leading and advising robotics teams in various competitions, developing strategies for technical excellence, and mentoring students in robotics and mechatronics projects.</p>
-                </div>
-                
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Lecturer and Researcher</div>
-                            <div class="item-company">Soegijapranata Catholic University</div>
-                        </div>
-                        <div class="item-date">May 2014 - Present</div>
-                    </div>
-                    <p>Teaching electrical engineering courses, conducting research in robotics and mechatronics, supervising student projects, and contributing to academic publications.</p>
-                </div>
-                
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Head of Laboratory</div>
-                            <div class="item-company">Soegijapranata Catholic University</div>
-                        </div>
-                        <div class="item-date">August 2014 - March 2018</div>
-                    </div>
-                    <p>Managing laboratory operations, maintaining equipment, developing laboratory modules, and ensuring safety standards for electrical engineering experiments.</p>
-                </div>
-                
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Research Assistant</div>
-                            <div class="item-company">Electrical Energy Conversion Laboratory</div>
-                        </div>
-                        <div class="item-date">January 2010 - August 2012</div>
-                    </div>
-                    <p>Assisting in research projects related to electrical energy conversion, data collection, analysis, and experimental setup.</p>
-                </div>
-                
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Teaching Assistant</div>
-                            <div class="item-company">Electrical Energy Conversion Laboratory</div>
-                        </div>
-                        <div class="item-date">August - December 2009</div>
-                    </div>
-                    <p>Assisting in laboratory sessions, helping students with experiments, and grading assignments.</p>
-                </div>
-                
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Internship</div>
-                            <div class="item-company">PT Astra Honda Motor</div>
-                        </div>
-                        <div class="item-date">August 2007</div>
-                    </div>
-                    <p>Gained practical experience in automotive manufacturing processes and quality control systems.</p>
-                </div>
-            </div>
-            
-            <!-- Education -->
-            <div class="section">
-                <h2 class="section-title">Education</h2>
-                
-                <div class="education-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Professional Engineer</div>
-                            <div class="item-school">Professional Certification</div>
-                        </div>
-                        <div class="item-date">April 2024 - October 2024</div>
-                    </div>
-                    <p>GPA: 4.00 of 4.00</p>
-                </div>
-                
-                <div class="education-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Master of Electrical Engineering</div>
-                            <div class="item-school">Institut Teknologi Bandung</div>
-                        </div>
-                        <div class="item-date">January 2010 - August 2012</div>
-                    </div>
-                    <p>GPA: 3.17 of 4.00</p>
-                </div>
-                
-                <div class="education-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Bachelor of Electrical Engineering</div>
-                            <div class="item-school">Soegijapranata Catholic University</div>
-                        </div>
-                        <div class="item-date">August 2005 - December 2009</div>
-                    </div>
-                    <p>GPA: 2.81 of 4.00</p>
-                </div>
-            </div>
-            
-            <!-- Skills -->
-            <div class="section">
-                <h2 class="section-title">Skills</h2>
-                
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h4>Technical Skills</h4>
-                        <div class="skill-list">
-                            <span class="skill-tag">Robotics & Mechatronics</span>
-                            <span class="skill-tag">Machine Learning</span>
-                            <span class="skill-tag">Computer Vision</span>
-                            <span class="skill-tag">Embedded Systems</span>
-                            <span class="skill-tag">SolidWorks</span>
-                            <span class="skill-tag">MATLAB-SIMULINK</span>
-                            <span class="skill-tag">PSIM</span>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h4>Programming Languages</h4>
-                        <div class="skill-list">
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">C/C++</span>
-                            <span class="skill-tag">BASIC</span>
-                            <span class="skill-tag">HTML</span>
-                            <span class="skill-tag">PHP</span>
-                            <span class="skill-tag">MySQL</span>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h4>Libraries & Frameworks</h4>
-                        <div class="skill-list">
-                            <span class="skill-tag">OpenCV</span>
-                            <span class="skill-tag">PyTorch</span>
-                            <span class="skill-tag">Pandas</span>
-                            <span class="skill-tag">Scikit-Learn</span>
-                            <span class="skill-tag">Azure Platform</span>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h4>Languages</h4>
-                        <div class="skill-list">
-                            <span class="skill-tag">Indonesian (Native)</span>
-                            <span class="skill-tag">Javanese (Native)</span>
-                            <span class="skill-tag">English (TOEFL iBT 80)</span>
-                            <span class="skill-tag">French (DELF A2)</span>
-                            <span class="skill-tag">Japanese (Basic)</span>
-                            <span class="skill-tag">Korean (Basic)</span>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h4>Operating Systems</h4>
-                        <div class="skill-list">
-                            <span class="skill-tag">Microsoft Windows</span>
-                            <span class="skill-tag">Linux</span>
-                            <span class="skill-tag">Microsoft Office</span>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h4>Soft Skills</h4>
-                        <div class="skill-list">
-                            <span class="skill-tag">Teamwork</span>
-                            <span class="skill-tag">Social Integrity</span>
-                            <span class="skill-tag">Leadership</span>
-                            <span class="skill-tag">Determination</span>
-                            <span class="skill-tag">Project Management</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Achievements -->
-            <div class="section">
-                <h2 class="section-title">Achievements & Awards</h2>
-                <ul class="achievements-list">
-                    <li><strong>Best Graduate Student</strong> - Academic excellence recognition</li>
-                    <li><strong>AOTULE Participant</strong> - International academic collaboration</li>
-                    <li><strong>Exchange Student</strong> - INP-ENSEEIHT, Toulouse, France</li>
-                    <li><strong>Presenter</strong> - Various international conferences and seminars</li>
-                    <li><strong>Advisor and Judge</strong> - Multiple robotics competitions</li>
-                </ul>
-            </div>
-            
-            <!-- Professional Memberships -->
-            <div class="section">
-                <h2 class="section-title">Professional Memberships</h2>
-                <div class="memberships-list">
-                    <span class="membership-item">IEEE Regular Member</span>
-                    <span class="membership-item">PII Regular Member</span>
-                    <span class="membership-item">APDI Regular Member</span>
-                    <span class="membership-item">Python Indonesian Society Member</span>
-                    <span class="membership-item">Python Software Foundation (PSF) Member</span>
-                </div>
-            </div>
-            
-            <!-- Research Interests -->
-            <div class="section">
-                <h2 class="section-title">Research Interests</h2>
-                <p>Unmanned Systems, Autonomous Vehicles, Renewable Energy, Robotics, Mechatronics, Machine Learning, Computer Vision, Human Emotion Analysis, Embedded Systems</p>
-            </div>
-        </div>
-    </div>
+<main>
+<header>
+  <h1>Felix Yustian Setiono</h1>
+  <p class="headline">Senior Edge AI Engineer | Computer Vision &amp; ML Systems Architect</p>
+  <p class="contact">Demak, Central Java, Indonesia | +62 812 840 473 45 | <a href="mailto:felixyustian@gmail.com">felixyustian@gmail.com</a></p>
+  <p class="contact"><a href="https://felixsetiono.my.id">felixsetiono.my.id</a> | <a href="https://linkedin.com/in/felixsetiono">linkedin.com/in/felixsetiono</a> | <a href="https://github.com/felixyustian">github.com/felixyustian</a> | <a href="https://scholar.google.com/citations?user=W_NZMf4AAAAJ&amp;hl=en">Google Scholar</a> | <a href="https://orcid.org/0000-0002-5240-0466">ORCID 0000-0002-5240-0466</a></p>
+</header>
+
+<h2>Professional Summary</h2>
+<p>Senior AI/ML engineer and researcher with 10+ years of experience building and deploying intelligent autonomous systems — from Edge AI (TensorRT, NVIDIA Jetson) and real-time computer vision pipelines to LLM-powered Agentic Workflows (LangChain, LangGraph, MCP). Proven ability to bridge hardware-level optimization with high-level AI architecture: delivering sub-66.7 ms latency on 15 simultaneous 1080p streams using TensorRT FP16 quantization, and designing enterprise agentic systems for banking risk and fraud analytics. Now Senior AI/ML/CV Engineer and CV Team Lead at Sigmawave AI (Singapore), leading multi-camera computer-vision systems for edge deployment. Semi-Finalist (Top 100) at Pan-SEA AI Developer Challenge 2025 and Finalist (Top 80) at BRIN AIDeaNation 2025 and 2026.</p>
+<p class="note">Research metrics: Google Scholar — 40 citations, h-index 4 | Scopus — 18 citations, h-index 3.</p>
+
+<h2>Technical Skills</h2>
+<div class="skills">
+<p><strong>AI &amp; ML:</strong> PyTorch, TensorFlow, Scikit-Learn, OpenCV, Pandas, NumPy, Plotly, MLOps</p>
+<p><strong>Generative AI &amp; LLMs:</strong> LangChain, LangGraph, MCP (Model Context Protocol), QwenPaw (AgentScope), Qwen3-14B, Prompt Engineering (CoT, ToT, RTCFC), Gemini, LLaMA, Transformers, Agentic Workflows</p>
+<p><strong>Edge AI &amp; HPC:</strong> TensorRT (FP16/INT8 Quantization), NVIDIA Jetson, Inference Acceleration, FastAPI, Docker, RTOS</p>
+<p><strong>Programming:</strong> Python, Go (Golang), C/C++, JavaScript, HTML/CSS, PHP, MySQL, SQL</p>
+<p><strong>OCR &amp; Document AI:</strong> Tesseract OCR, pytesseract, KTP/ID Card Extraction, Regex Field Parsing</p>
+<p><strong>Cloud &amp; DevOps:</strong> Google Cloud Platform (GCP), Azure ML, AWS, Git/GitHub, Docker</p>
+<p><strong>Embedded Systems:</strong> Raspberry Pi, Arduino, STM32, NodeMCU, Xiao ESP-32, Embedded C++, dsPIC</p>
+<p><strong>Robotics Platforms:</strong> UAV (Hexacopter, Quadrotor, VTOL), AUV, AGV, Quadrupeds, Humanoid</p>
+<p><strong>Data &amp; Backend:</strong> ETL Pipelines, FastAPI, Pandas, Plotly, Tableau, MATLAB-Simulink, PSIM, SolidWorks, Figma</p>
+<p><strong>Languages:</strong> Indonesian &amp; Javanese (Native), English — TOEFL iBT 80 (Professional), French — DELF A2, Mandarin (Business Chinese — BCT 1, 2026), Japanese &amp; Korean (Basic)</p>
+</div>
+
+<h2>Certifications</h2>
+<ul>
+<li><strong>Google Cloud Generative AI Leader</strong> — Google Cloud. <a href="https://coursera.org/share/7802f5349976ff81e1a92c4f5892996c">Verify</a></li>
+<li><strong>McKinsey.org Forward Program</strong> — McKinsey &amp; Company. <a href="https://www.credly.com/badges/56bc708e-79b0-4a68-857b-262c5b624e2c/public_url">Verify</a></li>
+<li><strong>Claude 101</strong> — Anthropic (Anthropic Academy). <a href="https://verify.skilljar.com/c/2t82nnenecjm">Verify</a></li>
+<li><strong>Claude Code 101</strong> — Anthropic (Anthropic Academy). <a href="https://verify.skilljar.com/c/dv7237fu926y">Verify</a></li>
+<li><strong>Claude Platform 101</strong> — Anthropic (Anthropic Academy). <a href="https://verify.skilljar.com/c/2mvqufvr9tdy">Verify</a></li>
+<li><strong>Google AI Essentials</strong> — Google. <a href="https://www.credly.com/badges/0d7b4ef7-97b5-40a7-b104-f2daf6e8400b/public_url">Verify</a></li>
+<li><strong>Basics of Google Cloud Compute (Skill Badge)</strong> — Google Cloud. <a href="https://www.credly.com/badges/a46a52ff-e1dc-422d-a92d-9d65f853cafd/public_url">Verify</a></li>
+<li><strong>Career Management Essentials (SkillsBuild)</strong> — IBM. <a href="https://www.credly.com/badges/329633b2-77e9-470a-b067-8698e6bfc355/public_url">Verify</a></li>
+<li><strong>Business Chinese (BCT 1 / 商务汉语)</strong> — Murz x Cetta Mandarin, Batch 8. Jul 2026.</li>
+</ul>
+
+<h2>Professional Experience</h2>
+<h3>Senior Computer Vision Engineer &amp; CV Team Lead <span class="meta">| Sigmawave AI Pte. Ltd. — Singapore (Remote / Hybrid) | Sep 2026 – Present</span></h3>
+<ul>
+<li>Rebuilt and optimized a multi-camera person re-identification and cross-camera tracking system for edge deployment; lead the CV engineering team across model design, optimization, and production MLOps.</li>
+<li>Edge AI &amp; architecture: optimize deep-learning models for inference efficiency, latency, throughput, and hardware constraints on edge targets.</li>
+<li>Team leadership: own task allocation, technical standards, and code reviews for the CV team; coordinate cross-functional workflows to hit product milestones.</li>
+<li>MLOps &amp; reliability: establish experiment tracking, model versioning, and CI/CD pipelines for production model reliability in live environments.</li>
+<li>Algorithm policy &amp; edge cases: define operational boundaries, confidence thresholds, and fallback behaviours for safe real-world deployment; oversee data-curation pipelines and applied R&amp;D from PoC to production.</li>
+</ul>
+<h3>AI Architect &amp; Technical Lead <span class="meta">| V-TEKI — Jakarta, Indonesia (Remote) | Jul 2026 – Present</span></h3>
+<ul>
+<li>Set technical direction for enterprise AI delivery across LLM, agentic, and computer-vision workstreams — defining target architectures and reviewing designs and source code to production standard.</li>
+<li>Drive MLOps and deployment standards (experiment tracking, model versioning, CI/CD) and lead architecture decisions from proposal through client delivery.</li>
+<li>Establish best practices for AI engineering, system deployment, and MLOps; contribute to reusable AI frameworks, technical standards, and documentation.</li>
+<li>Mentor AI engineers and cross-functional teams; support delivery through technical proposal reviews, solution architecture design, and client discussions.</li>
+</ul>
+<h3>Lead AI Researcher &amp; Robotics Technical Lead <span class="meta">| Soegijapranata Catholic University — Semarang, Indonesia | May 2014 – Present</span></h3>
+<ul>
+<li>Architect and deploy real-time computer vision pipelines (PyTorch, OpenCV, C++) onto constrained edge hardware — Raspberry Pi and Pixhawk — for autonomous UAV, AUV, and AGV platforms competing in national robotics contests (KRTI, KRBAI, KRTMI).</li>
+<li>Founded and lead the university robotics team across 10+ national competitions; 1st Place AEROCREATION 2017 (ITB) and 5th nationally, Indonesian Aerial Robotics Contest 2016 (1 of 5 teams to finish the full autonomous mission).</li>
+<li>Built an end-to-end ML pipeline for human emotional-state estimation via multisensory data fusion (HRV + motion); validated and published in Jurnal Elektrika USM (Oct 2024).</li>
+<li>Supervise 10+ concurrent student research teams annually across the full hardware-to-deployment lifecycle; introduced Git-based version control and structured ML evaluation workflows across the lab.</li>
+<li>Research impact: Google Scholar h-index 4 (40 citations); Scopus h-index 3 (Scopus ID 5326490710).</li>
+</ul>
+
+<h2>Key Projects</h2>
+<h3>Neraca Fakta — IDX Stock-Claim Fact-Checker <span class="meta">— Governed LLM / FinTech | Sectors Hackathon 2026</span></h3>
+<ul>
+<li>Built a deployed tool that fact-checks Indonesian stock tips (chat text, links, or screenshots) against official IDX financial data via the Sectors API — multi-provider LLM claim extraction (Claude/OpenAI/Gemini) with a rule-based fallback.</li>
+<li>Governance pattern: the LLM only extracts typed claims; a deterministic engine assigns each verdict against fixed tolerances — the model never decides the outcome. Web app + Telegram + WhatsApp bots; 98-test suite; deployed on Vercel.</li>
+<li>Stack: Python, FastAPI, React/TypeScript/Vite, SQLite credit ledger, Claude/OpenAI/Gemini APIs.</li>
+</ul>
+<h3>Visitor Counting Console — Multi-Camera CCTV Footfall <span class="meta">— Edge Computer Vision | 2026</span></h3>
+<ul>
+<li>Built a multi-camera footfall system on existing CCTV: YOLO11 + ByteTrack entry/exit line-counting with per-track voting, an OpenCV kiosk and a FastAPI browser console with MJPEG overlays and a live WebSocket feed; TensorRT export and CUDA Docker.</li>
+<li>Counting is the validated core (per-track crossing logic, occupancy vs cumulative-visitor separation, no-double-count safeguards); SigLIP 2 zero-shot gender/age is a demographic baseline (accuracy measured on a hand-labelled demo set, not a trained attribute model).</li>
+<li>Stack: Python, PyTorch, YOLO11, ByteTrack, SigLIP 2, FastAPI, OpenCV, TensorRT, Docker.</li>
+</ul>
+<h3>crosscam-reid — Cross-Camera Re-ID (Portfolio Demo) <span class="meta">— Computer Vision | 2026</span></h3>
+<ul>
+<li>From-scratch cross-camera person re-identification pipeline illustrating the standard structure (per-camera tracking to appearance embedding to online cross-camera gallery fusion); ships a synthetic, self-scoring offline demo. Original portfolio project on generic techniques and synthetic data.</li>
+<li>Colour-histogram appearance baseline by default with an optional torchvision ResNet50 embedder; greedy-IoU tracking, EMA-prototype fusion with threshold + runner-up margin. CI on Python 3.9/3.12; MIT. Stack: NumPy, OpenCV, optional PyTorch.</li>
+</ul>
+<h3>soji-ad-applicability — Aviation AD Applicability Engine <span class="meta">— Document AI / Governed LLM Extraction | 2026</span></h3>
+<ul>
+<li>Built a pipeline that reads Airworthiness Directive PDFs and answers 'is aircraft X affected by AD Y?' — deterministic where the document is structured, LLM only for free-form language; the model never decides the affected/not-affected verdict.</li>
+<li>Schema-bound extraction (Pydantic), N-run stability check, and a deterministic grounding check that raises if any emitted value is not verbatim in the source; deterministic rule engine with a 4-state verdict and per-decision audit trail.</li>
+<li>All supplied verification examples pass; runs end-to-end offline. Stack: Python 3.11, pdfplumber, Pydantic, Gemini/OpenAI/Anthropic APIs.</li>
+</ul>
+<h3>zkKTP — Proof-of-Personhood for Indonesia <span class="meta">— Web3 Identity / Computer Vision | 2026</span></h3>
+<ul>
+<li>Off-chain verification engine (built): Go gateway, KTP OCR + NIK validation, image-quality gate, liveness/selfie match, and a calibrated approve/escalate-to-human confidence gate; Pytest + Go tests + CI/CD.</li>
+<li>PII-discard attestation bridge: nullifier = H(NIK), EIP-712 issuer signing, raw documents destroyed after verification; on-chain ERC-5192 soulbound credential and mint flow in progress (ZK unlinkability circuit is a roadmap stretch goal).</li>
+<li>Stack: Go 1.22, Python 3.11, FastAPI, OpenCV, Tesseract, React/wagmi, Solidity 0.8.24, Foundry, Lisk Sepolia.</li>
+</ul>
+<h3>JAGA PERAIRAN — HAB Early-Warning (PoC) <span class="meta">— Scientific CV | BRIN AIDeaNation 2026</span></h3>
+<ul>
+<li>Working proof-of-concept for Harmful Algal Bloom early warning: estimates harmful-particle density from microscope imagery and raises a tiered alert (AMAN / WASPADA / BAHAYA), running end-to-end (Go gateway to FastAPI service to web overlay) on synthetic fields.</li>
+<li>Detector is a classical placeholder (thresholding + connected-components) — a slot for a trained species model, not species identification itself. Stack: Python, FastAPI, Go, OpenCV, Docker Compose.</li>
+</ul>
+<h3>PPE Compliance Monitoring — Edge AI Architecture <span class="meta">— Enterprise Computer Vision | 2024 – Present</span></h3>
+<ul>
+<li>Built an enterprise-grade Edge AI system on NVIDIA Jetson using YOLOv11 with TensorRT FP16 quantization, achieving zero mAP degradation while meeting a strict ≤66.7ms latency budget across 15 simultaneous 1080p RTSP streams.</li>
+<li>Engineered PyTorch Forward Hooks for predictive tensor analysis (Layer Collapse mitigation) and an asynchronous FastAPI backend for production-scale video processing.</li>
+<li>Stack: Python, PyTorch, TensorRT, YOLOv11, FastAPI, Docker, NVIDIA Jetson, C++</li>
+</ul>
+<h3>KYC Vision System — Document Verification Microservice <span class="meta">— Production Computer Vision / FinTech | 2025 – Present</span></h3>
+<ul>
+<li>Built a production-grade Know Your Customer (KYC) document verification system using a polyglot microservice architecture: a high-concurrency Go API Gateway (JWT auth, rate limiting) paired with a Python computer vision service (FastAPI, OpenCV, YOLOv8, Tesseract).</li>
+<li>Implemented an Indonesian KTP (National ID) OCR pipeline — preprocessing, deskewing, Tesseract 5 recognition, and regex-based structured field extraction (NIK, Name, DOB, Address) — with image quality gates for blur, glare, and resolution validation.</li>
+<li>Includes liveness detection via selfie-to-ID face similarity check; full CI/CD via GitHub Actions; containerized with Docker Compose; unit-tested with Pytest (Python) and Go test suite.</li>
+<li>Stack: Go 1.22, Python 3.11, FastAPI, OpenCV, YOLOv8, Tesseract OCR, Docker, GitHub Actions</li>
+</ul>
+<h3>Enterprise AI Agentic Workflow — Banking Risk &amp; Compliance <span class="meta">— Generative AI / LLM Engineering | 2024 – Present</span></h3>
+<ul>
+<li>Designed an enterprise-grade agentic workflow unifying AML/Fraud detection, Credit Risk underwriting, and Marketing Analytics using LangGraph, MCP, and the Gemini API with autonomous low-latency decision-making.</li>
+<li>Stack: Python, LangChain, LangGraph, MCP, Gemini API, Pandas, Scikit-Learn, GCP</li>
+</ul>
+<h3>Computer Vision-based Autonomous Hexacopter (Team SIRI — KRTI 2024) <span class="meta">— UAV Research Platform | 2022 – Present</span></h3>
+<ul>
+<li>Designed a 6-rotor UAV with real-time object detection and autonomous obstacle avoidance using OpenCV and PyTorch on Raspberry Pi edge hardware; competed in Indonesian Flying Robot Contest (KRTI) 2024.</li>
+<li>Stack: Python, PyTorch, OpenCV, ROS, Raspberry Pi, C++</li>
+</ul>
+<h3>SOUNDBOT-ORCA — Autonomous Underwater Vehicle (Team SOUNDBOT — KRBAI 2024) <span class="meta">— Underwater Robotics Research | 2023 – Present</span></h3>
+<ul>
+<li>Led student team in designing a modular AUV platform for underwater navigation and object detection; competed in Indonesian Underwater Robot Contest (KRBAI) 2023 &amp; 2024. Research paper submitted to IJEECS.</li>
+<li>Stack: Python, OpenCV, embedded C, depth/pressure sensors, brushless motor control</li>
+</ul>
+<h3>SAURO — Autonomous Trash Collector Robot (KRTMI 2024) <span class="meta">— Autonomous Ground Vehicle | 2024</span></h3>
+<ul>
+<li>AGV combining Arduino-based motor control with Raspberry Pi computer vision for autonomous object detection and collection in competition environments.</li>
+<li>Stack: Python, OpenCV, Arduino, Raspberry Pi, C++</li>
+</ul>
+<h3>Synapse — AI Meeting Assistant <span class="meta">— LLM Application / Full-Stack | 2024</span></h3>
+<ul>
+<li>Built a full-stack, deployment-ready AI meeting assistant powered by the Claude (Anthropic) API: paste any meeting transcript and instantly receive an executive summary, action items with owners and deadlines, key decisions with rationale, and a ready-to-send follow-up email draft.</li>
+<li>Architecture: FastAPI Python backend handling Claude API integration and structured JSON extraction, paired with a static HTML/JS/CSS frontend served via Nginx reverse proxy — fully containerized with Docker Compose and CI/CD via GitHub Actions.</li>
+<li>Cloud-deployment ready on Render, Railway, Fly.io, or any VPS via Docker Compose; includes a REST API (/api/analyze) for integration with external productivity tools.</li>
+<li>Stack: Python, FastAPI, Claude API (Anthropic), HTML/CSS/JS, Nginx, Docker Compose, GitHub Actions</li>
+</ul>
+<h3>Human Emotional State Estimation System <span class="meta">— ML Research Project | 2022 – Present</span></h3>
+<ul>
+<li>Multisensory ML data fusion pipeline estimating emotional states from HRV and motion signals; model validated and published in Jurnal Elektrika USM (Oct 2024). Presented at IEEE IRC 2020 and ICCAS 2021.</li>
+<li>Stack: Python, PyTorch, Scikit-Learn, Pandas, wearable sensor APIs</li>
+</ul>
+<h3>LapakPintar — Autonomous Business OS for Indonesian SMEs (Team NexaPaw) <span class="meta">— OpenClaw Agenthon 2026 — RISTEK x Build Club | Best Payment Use Case Track | May 2026</span></h3>
+<ul>
+<li>Built a 5-agent autonomous business operating system targeting Indonesia's 65 million SMEs — running 24/7 to eliminate an average of 4 hours/day of manual operational overhead per merchant, with zero human intervention required.</li>
+<li>Five specialized agents: Pantau Agent (real-time competitor price monitoring on Tokopedia/Shopee via Playwright scraper), Analitik Agent (sales trend analysis and demand forecasting via Qwen3 reasoning + RAG DB), Konten Agent (automated product description and promotional content generation), Bayar Agent (automated payment reconciliation and anomaly detection via DOKU REST API), and Laporan Agent (daily business insight synthesis and reporting).</li>
+<li>QwenPaw (AgentScope) orchestrator with Qwen3-14B LLM for multi-agent coordination, long-term memory store, skill registry, and event-driven scheduling; containerized with Docker Compose; FastAPI backend dashboard deployed locally or via cloud.</li>
+<li>Stack: Python 3.11, QwenPaw (AgentScope), Qwen3-14B, Playwright, BeautifulSoup4, DOKU REST API, FastAPI, Redis, Docker Compose, GitHub Actions</li>
+</ul>
+
+<h2>Education</h2>
+<h3>Professional Engineer (Ir.) <span class="meta">| Institut Teknologi Indonesia, Serpong, Indonesia | Apr 2024 – Oct 2024</span></h3>
+<ul><li>GPA: 4.00 / 4.00</li></ul>
+<h3>Master of Electrical Engineering <span class="meta">| Bandung Institute of Technology (ITB), Bandung, Indonesia | Jan 2010 – Aug 2012</span></h3>
+<ul><li>GPA: 3.17 / 4.00 | Exchange Student: INP-ENSEEIHT, Toulouse, France (Sep 2012 – Oct 2013)</li></ul>
+<h3>Bachelor of Electrical Engineering <span class="meta">| Soegijapranata Catholic University, Semarang, Indonesia | Aug 2005 – Dec 2009</span></h3>
+<ul><li>Best Graduate Student Award — December 2009 Commencement</li></ul>
+
+<h2>Publications &amp; Presentations</h2>
+<h3>Journal Articles</h3>
+<ul>
+<li>A Novel Approach of Human Emotional State Estimation System via Machine Learning-based Multisensory Datasets Fusion Methods — Felix Yustian Setiono (1st Author) | Jurnal Elektrika USM, Vol. 16, No. 2, pp. 103–110, October 2024 | DOI: <a href="https://doi.org/10.26623/elektrika.v16i2.10624">10.26623/elektrika.v16i2.10624</a></li>
+<li>Advanced Line Follower Robot dengan Sensor Ultrasonik untuk Dynamic Obstacle Avoidance dan Smartphone-based Control — Gregorius Dwi Perkasa &amp; Felix Yustian Setiono (2nd Author) | Jurnal Elektrika USM, Vol. 17, No. 1, pp. 12–20, April 2025 | DOI: <a href="https://doi.org/10.26623/elektrika.v17i1.11813">10.26623/elektrika.v17i1.11813</a></li>
+</ul>
+<h3>IEEE Conference Papers</h3>
+<ul>
+<li>Human Emotional State Estimation Evaluation using Heart Rate Variability and Activity Data — Felix Yustian Setiono, Armagan Elibol, Nak Young Chong | 4th IEEE International Conference on Robotic Computing (IRC 2020), pp. 178–182, November 2020</li>
+<li>A Novel Room Categorization Approach to Semantic Localization for Domestic Service Robots — Felix Yustian Setiono et al. | 21st International Conference on Control, Automation and Systems (ICCAS 2021), Jeju, South Korea, October 2021</li>
+</ul>
+<h3>Other International Conference Papers</h3>
+<ul>
+<li>Designing and Implementation of Autonomous Hexarotor as Unmanned Aerial Vehicle — ICITEE 2016, Gadjah Mada University, Yogyakarta, October 2016</li>
+<li>Designing and Implementation of Autonomous Quadrotor as Unmanned Aerial Vehicle — ICITACEE 2016, Diponegoro University, Semarang, October 2016</li>
+<li>Control of a Single-Phase Boost Inverter with the Combination of Proportional Integrator (PI) and Hysteresis Controller — ICITACEE 2014, Diponegoro University, Semarang, November 2014</li>
+<li>Design and Implementation of Solar Power as Battery Charger using Incremental Conductance Current Control Method based on dsPIC30F4012 — ICITACEE 2014, Diponegoro University, Semarang, November 2014</li>
+<li>Maximum Power Point Tracker as Regulated Voltage Supply using Ripple Correlation Control — Felix Yustian Setiono, Leonardus Heru Pratomo | ICEEI 2011, Bandung Institute of Technology, pp. 1–6, July 2011</li>
+</ul>
+
+<h2>Honors &amp; Awards</h2>
+<ul>
+<li>Participant — IOC Forum &amp; Hackathon AI/ML Hulu Migas 2026 (SKK Migas), University Category, Team Nusantara Edge Vision — proposed an air-gapped Edge-AI system for offshore-rig HSE compliance (YOLOv11 INT8/TensorRT PPE detection across 15 RTSP streams on NVIDIA Jetson Orin AGX, ArcFace crew recognition, FastAPI local dashboard, timestamped violation log).</li>
+<li>Participant — OpenClaw Agenthon 2026 (RISTEK x Build Club, Devpost) — submitted LapakPintar as Team NexaPaw: a 5-agent autonomous Business OS for Indonesia's 65M SMEs, competing in the Best Payment Use Case track with DOKU REST API integration.</li>
+<li>Semi-Finalist — Coding &amp; Algorithm Tournament 2026 (catournament.org)</li>
+<li>Semi-Finalist / Top 100 — Pan-SEA AI Developer Challenge 2025 (Angel Hacks &amp; AI Singapore)</li>
+<li>Finalist / Top 80 — BRIN AIDeaNation 2025 (Indonesian National Research &amp; Innovation Agency)</li>
+<li>Finalist / Top 80 — BRIN AIDeaNation 2026 (Indonesian National Research &amp; Innovation Agency)</li>
+<li>Mentor — Google Student Ambassador 2025, Google Indonesia</li>
+<li>1st Place Nationally — AEROCREATION 2017 National Essay Competition, Bandung Institute of Technology</li>
+<li>5th Place Nationally — Indonesian Aerial Robotics Contest 2016 (1 of only 5 teams to complete the full autonomous mission)</li>
+<li>Judge — Indonesian Humanoid Robot Soccer Contest, National Robotics Contest 2015, Muhammadiyah University Yogyakarta</li>
+<li>Best Graduate Student Award — Soegijapranata Catholic University, December 2009</li>
+<li>Exchange Fellowship — INP-ENSEEIHT, Toulouse, France (International Master of EE &amp; Embedded Systems, 2012–2013)</li>
+<li>Participant — AOTULE 2012 (Asia-Oceania Top Universities League on Engineering), Bandung Institute of Technology</li>
+</ul>
+
+<h2>Professional Memberships</h2>
+<ul>
+<li>IEEE (Institute of Electrical and Electronics Engineers) — Regular Member</li>
+<li>PII (The Institution of Engineers Indonesia) — Regular Member</li>
+<li>KORIKA (Collaborative Research and Industrial Innovation in Artificial Intelligence) — Regular Member</li>
+<li>APDI (Indonesian Drone Pilot Association) — Regular Member</li>
+<li>Python Software Foundation (PSF) — Member</li>
+<li>Python Indonesian Society — Member</li>
+</ul>
+</main>
 </body>
 </html>
