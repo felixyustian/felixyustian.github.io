@@ -19,7 +19,8 @@ A Senior AI Engineer with a rare dual expertise: architecting low-level **Edge A
 - 📸 **Instagram:** https://www.instagram.com/felixyustian/
 - 🎓 **Google Scholar:** https://scholar.google.com/citations?user=W_NZMf4AAAAJ&hl=en
 - 🔬 **ORCiD:** https://orcid.org/0000-0002-5240-0466
-- 🌐 **Portfolio:** https://felixyustian.github.io
+- 🌐 **Website:** https://felixsetiono.my.id
+- 🗂️ **Portfolio:** https://felixyustian.github.io
 
 ---
 
