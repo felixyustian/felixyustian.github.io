@@ -1,3 +1,9 @@
 theme: jekyll-theme-minimal
-title: Felix Yustian Setiono's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Felix Yustian Setiono
+description: Senior Computer Vision Engineer & CV Team Lead, Edge AI & ML Systems Architect. Projects, experience, publications, and CV.
+url: https://felixyustian.github.io
+plugins:
+  - jekyll-seo-tag
+  - jekyll-readme-index
+exclude:
+  - LICENSE
