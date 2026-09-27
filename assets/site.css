@@ -74,6 +74,7 @@ nav{position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdro
 .prose li.pcard .pevent{display:block;font-style:normal;font-family:var(--font-mono);font-size:.7rem;letter-spacing:.03em;text-transform:uppercase;color:var(--blue);margin-bottom:.4em}
 .prose li.pcard strong{color:var(--ink)}
 .prose li.pcard code{display:inline-block;margin-top:.6em}
+.prose li.pcard p > code:last-child,.prose li.pcard > code:last-child{display:table;margin-top:.8em}
 
 /* footer */
 footer{border-top:1px solid var(--line);padding-block:34px;margin-top:20px}
