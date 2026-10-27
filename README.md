@@ -213,11 +213,11 @@ Languages        │ Indonesian & Javanese (Native) · English — TOEFL iBT 80 
 - Advised on technical viability and early-stage architecture to help teams avoid structural technical debt.
 
 ### Facilitator - Google Skills Arcade 2026
-**Dicoding Indonesia — Google Skills Arcade 2026** | *July 2026 – Present* | Remote, Indonesia
+**Dicoding Indonesia — Google Skills Arcade 2026** | *July 2026 – October 2026* | Remote, Indonesia
 
-- Mentor national tech talent through Google Cloud hands-on labs on cloud architecture and infrastructure.
-- Review updated cloud-infrastructure modules and translate them into practical technical guidance for mentees.
-- Facilitate troubleshooting discussions and community networking within the Google Skills developer ecosystem.
+- Mentored national tech talent through Google Cloud hands-on labs on cloud architecture and infrastructure.
+- Reviewed updated cloud-infrastructure modules and translated them into practical technical guidance for mentees.
+- Facilitated troubleshooting discussions and community networking within the Google Skills developer ecosystem.
 
 ### Google Prompt Engineering Trainer (VILT)
 **Smartbridge International — Last Mile Indonesia Program** | *February 2026 – July 2026* | Remote
