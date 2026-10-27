@@ -190,7 +190,7 @@ Languages        │ Indonesian & Javanese (Native) · English — TOEFL iBT 80 
 ## 💼 Work Experience
 
 ### Senior Computer Vision Engineer & CV Team Lead
-**Sigmawave AI Pte. Ltd. — Singapore** | *September 2026 – Present* | Remote / Hybrid
+**Sigmawave AI Pte. Ltd. — Singapore** | *September 2026 – Present* | Remote
 
 - Rebuilt and optimized a multi-camera person re-identification and cross-camera tracking system for edge deployment; lead the CV engineering team across model design, optimization, and production MLOps.
 - Optimize deep-learning models for inference efficiency, latency, throughput, and hardware constraints on edge targets.
@@ -199,7 +199,7 @@ Languages        │ Indonesian & Javanese (Native) · English — TOEFL iBT 80 
 - Define operational boundaries, confidence thresholds, and fallback behaviours for safe real-world deployment; oversee data-curation pipelines and applied R&D from PoC to production.
 
 ### AI Architect & Technical Lead
-**V-TEKI** | *July 2026 – Present* | Jakarta, Indonesia (Remote)
+**V-TEKI** | *July 2026 – Present* | Jakarta, Indonesia (Hybrid)
 
 - Set technical direction for enterprise AI delivery across LLM, agentic, and computer-vision workstreams — defining target architectures and reviewing designs and source code to production standard.
 - Drive MLOps and deployment standards (experiment tracking, model versioning, CI/CD) and lead architecture decisions from proposal through client delivery.
@@ -243,12 +243,12 @@ Lead Trainer for a 30-hour Virtual Instructor-Led Training (VILT) on advanced Pr
 - Built bespoke software solutions for client-specific automation and ML integration needs across diverse remote engagements
 
 ### Lead AI Researcher & Robotics Technical Lead
-**Soegijapranata Catholic University, Semarang** | *May 2014 – Present* | Onsite
+**Soegijapranata Catholic University, Semarang** | *May 2014 – August 2026* | Onsite
 
-- Architect and deploy real-time computer vision pipelines (PyTorch, OpenCV, C++) onto constrained edge hardware — Raspberry Pi and Pixhawk — for autonomous UAV, AUV, and AGV platforms competing in national robotics contests (KRTI, KRBAI, KRTMI)
-- Founded and lead the university robotics team across 10+ national competitions; **1st Place** AEROCREATION 2017 (ITB) and **5th nationally**, Indonesian Aerial Robotics Contest 2016 (1 of 5 teams to finish the full autonomous mission)
+- Architected and deployed real-time computer vision pipelines (PyTorch, OpenCV, C++) onto constrained edge hardware — Raspberry Pi and Pixhawk — for autonomous UAV, AUV, and AGV platforms competing in national robotics contests (KRTI, KRBAI, KRTMI)
+- Founded and led the university robotics team across 10+ national competitions; **1st Place** AEROCREATION 2017 (ITB) and **5th nationally**, Indonesian Aerial Robotics Contest 2016 (1 of 5 teams to finish the full autonomous mission)
 - Built an end-to-end ML pipeline for human emotional-state estimation via multisensory data fusion (HRV + motion); published in Jurnal Elektrika USM (Oct 2024)
-- Supervise 10+ concurrent student research teams annually across the full hardware-to-deployment lifecycle; introduced Git-based version control and structured ML evaluation workflows across the lab
+- Supervised 10+ concurrent student research teams annually across the full hardware-to-deployment lifecycle; introduced Git-based version control and structured ML evaluation workflows across the lab
 - Designed and delivered undergraduate courses in Embedded Systems, AI/ML Applications, and Autonomous Robotics to cohorts of 20–40 students per semester
 - **Research metrics:** Google Scholar — 40 citations, h-index 4 | Scopus ID 5326490710 — 18 citations, h-index 3
 
