@@ -24,6 +24,7 @@ description: Live list of Felix Yustian Setiono's public GitHub projects across 
 .meta{display:flex;gap:14px;flex-wrap:wrap;font-family:var(--font-mono);font-size:.7rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.03em}
 .star{color:var(--red)}
 .status{font-family:var(--font-mono);font-size:.78rem;color:var(--ink-soft);padding:8px 0}
+.card.priv h3{color:var(--ink)}
 </style>
 
 <header class="phead">
@@ -34,6 +35,9 @@ description: Live list of Felix Yustian Setiono's public GitHub projects across 
 
 <h2>Featured</h2>
 <div id="featured" class="grid"><div class="status">Loading&hellip;</div></div>
+
+<h2>Private builds <span class="status">(not public: no code to show)</span></h2>
+<div id="private" class="grid"><div class="status">Loading&hellip;</div></div>
 
 <h2>All repositories <span id="count" class="status"></span></h2>
 <div class="controls">
@@ -131,6 +135,19 @@ description: Live list of Felix Yustian Setiono's public GitHub projects across 
     render();
     document.getElementById('updated').textContent = 'Fetched from the GitHub API on ' + new Date().toLocaleString() + '.';
   }
+  // private repositories: listed from projects.json (name and a short description; no link, the code isn't public)
+  function showPrivate(){
+    var box = document.getElementById('private');
+    box.replaceChildren();
+    (cfg['private'] || []).forEach(function(r){
+      var c = el('article', 'card priv');
+      c.appendChild(el('h3', null, r.name));
+      c.appendChild(el('p', null, r.description));
+      var m = el('div', 'meta'); m.appendChild(el('span', null, '🔒 Private')); c.appendChild(m);
+      box.appendChild(c);
+    });
+    if (!box.children.length) box.appendChild(el('div', 'status', 'None right now.'));
+  }
   function fail(){
     var msg = 'Could not load projects right now (GitHub may be rate-limiting). ';
     ['featured', 'all'].forEach(function(id){
@@ -147,6 +164,7 @@ description: Live list of Felix Yustian Setiono's public GitHub projects across 
   fetch('projects.json').then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; })
     .then(function(c){
       cfg = Object.assign(cfg, c);
+      showPrivate();
       try {
         var cached = JSON.parse(sessionStorage.getItem(CACHE_KEY) || 'null');
         if (cached && Date.now() - cached.t < CACHE_MS) return cached.data;
