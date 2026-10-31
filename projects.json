@@ -12,5 +12,39 @@
     "felixyustian",
     "felixyustian.github.io",
     "test_repo"
+  ],
+  "private": [
+    {
+      "name": "NexaPaw HQ",
+      "description": "A 3D virtual office where my AI coding agents work, each with its own room and routine."
+    },
+    {
+      "name": "NexaPaw Buddy",
+      "description": "A small desktop and phone companion that shows what my Claude Code sessions are doing and opens the NexaPaw Assistant chat."
+    },
+    {
+      "name": "Link2Mac",
+      "description": "Links an Android phone to a Mac: notifications, messages, files, the clipboard and screen mirroring."
+    },
+    {
+      "name": "Notch Pulse",
+      "description": "Animates the Mac's camera notch, Dynamic Island style, when charging, getting notifications and locking."
+    },
+    {
+      "name": "VOD Downloader",
+      "description": "Download videos or MP3s from popular video sites and get AI summaries of them. For macOS, Windows and Android."
+    },
+    {
+      "name": "BatteryRing",
+      "description": "A battery and notification light ring around the phone's front camera, with charging animations."
+    },
+    {
+      "name": "Glass Weather",
+      "description": "Glass-style clock and weather widgets for the Android home screen."
+    },
+    {
+      "name": "FaceUnlock for macOS",
+      "description": "Face ID-style face unlock for the Mac, using its built-in camera."
+    }
   ]
 }
