@@ -1,6 +1,7 @@
 {
   "user": "felixyustian",
   "featured": [
+    "ai-pm-workshop",
     "wc2026-prediction-dashboard",
     "edusenseai",
     "PPE_Detection_TensorRT",
@@ -39,12 +40,16 @@
       "description": "A battery and notification light ring around the phone's front camera, with charging animations."
     },
     {
+      "name": "Lumens Launcher",
+      "description": "A fast, privacy-first Android launcher that can bring over your Nova Launcher home screen."
+    },
+    {
       "name": "Glass Weather",
       "description": "Glass-style clock and weather widgets for the Android home screen."
     },
     {
       "name": "FaceUnlock for macOS",
-      "description": "Face ID-style face unlock for the Mac, using its built-in camera."
+      "description": "Face ID-style face unlock for the Mac, using its built-in camera, and it warns you when someone else is looking at your screen."
     }
   ]
 }
